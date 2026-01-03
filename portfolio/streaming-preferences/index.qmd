@@ -202,7 +202,7 @@ Below, we load the conjoint dataset and reshape it for estimation. We create dum
 import pandas as pd
 
 # Load the simulated conjoint dataset
-df = pd.read_csv("Assignment_3_data/conjoint_data.csv")
+df = pd.read_csv("data/conjoint_data.csv")
 
 # Create dummy indicators for brand (baseline: Hulu) and ad (baseline: No-ad)
 df["brand_N"] = (df["brand"] == "N").astype(int)  # Netflix dummy

@@ -49,5 +49,17 @@
   },
   "portfolio.qmd": {
     "portfolio.html": "fdb88eaa"
+  },
+  "portfolio/clustering-classification/index.qmd": {
+    "index.html": "ee908a24"
+  },
+  "portfolio/patent-airbnb-analysis/index.qmd": {
+    "index.html": "3b9b5fad"
+  },
+  "portfolio/streaming-preferences/index.qmd": {
+    "index.html": "7af107b3"
+  },
+  "portfolio/fundraising-campaign-analysis/index.qmd": {
+    "index.html": "d5584083"
   }
 }

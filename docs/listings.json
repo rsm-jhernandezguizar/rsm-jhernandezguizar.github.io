@@ -2,10 +2,10 @@
   {
     "listing": "/portfolio.html",
     "items": [
-      "/portfolio/clustering-classification/Assignment_4.html",
-      "/portfolio/streaming-preferences/Assignment_3.html",
-      "/portfolio/patent-airbnb-analysis/Assignment_2.html",
-      "/portfolio/fundraising-campaign-analysis/Assignment_1.html"
+      "/portfolio/clustering-classification/index.html",
+      "/portfolio/streaming-preferences/index.html",
+      "/portfolio/patent-airbnb-analysis/index.html",
+      "/portfolio/fundraising-campaign-analysis/index.html"
     ]
   }
 ]

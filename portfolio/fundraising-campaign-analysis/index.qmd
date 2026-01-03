@@ -90,7 +90,7 @@ Preview of results from study
 import pandas as pd
 
 # Path to file stored in the local _files folder
-file_path = "Assignment_1_data/karlan_list_2007.dta"
+file_path = "data/karlan_list_2007.dta"
 
 # Load the .dta file using the correct relative path
 karlan_list_2007_pretty = pd.read_stata(file_path)

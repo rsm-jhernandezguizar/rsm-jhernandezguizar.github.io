@@ -28,7 +28,7 @@ First, let’s load the dataset and take a peek at the data structure:
 import pandas as pd
 
 # Load the Palmer Penguins dataset (CSV file provided)
-df = pd.read_csv("Assignment_4_data/palmer_penguins.csv")
+df = pd.read_csv("data/palmer_penguins.csv")
 print(df[["species", "bill_length_mm", "flipper_length_mm"]].head())
 
 # Drop any rows with missing values in the features of interest

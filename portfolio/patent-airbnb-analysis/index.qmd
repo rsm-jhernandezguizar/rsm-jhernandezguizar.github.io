@@ -24,7 +24,7 @@ To start we will review the first 5 data points collected in a table format:
 # | echo: false
 import pandas as pd
 
-blueprinty = pd.read_csv("Assignment_2_data/blueprinty.csv")
+blueprinty = pd.read_csv("data/blueprinty.csv")
 # Preview
 blueprinty.head()
 ```
@@ -583,7 +583,7 @@ Next, let’s inspect the distribution of our key variables:
 # | echo: false
 import pandas as pd, numpy as np, matplotlib.pyplot as plt, seaborn as sns, statsmodels.api as sm, math
 
-raw = pd.read_csv("Assignment_2_data/airbnb.csv", index_col=0)
+raw = pd.read_csv("data/airbnb.csv", index_col=0)
 
 df = (
     raw.dropna(
