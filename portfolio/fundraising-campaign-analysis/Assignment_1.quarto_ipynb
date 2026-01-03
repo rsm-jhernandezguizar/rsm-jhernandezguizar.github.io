@@ -92,7 +92,7 @@
         "\n",
         "Preview of results from study\n"
       ],
-      "id": "5904dbb6"
+      "id": "6b6fe080"
     },
     {
       "cell_type": "code",
@@ -111,7 +111,7 @@
         "# Preview\n",
         "karlan_list_2007_pretty.head()"
       ],
-      "id": "4dde4727",
+      "id": "3b68a4c4",
       "execution_count": null,
       "outputs": []
     },
@@ -121,7 +121,7 @@
       "source": [
         "Bar plot – Proportion Who Donated by Treatment Group\n"
       ],
-      "id": "8135abea"
+      "id": "e9a0f7ba"
     },
     {
       "cell_type": "code",
@@ -146,7 +146,7 @@
         "plt.grid(axis=\"y\")\n",
         "plt.show()"
       ],
-      "id": "bc6416df",
+      "id": "90a22e53",
       "execution_count": null,
       "outputs": []
     },
@@ -158,7 +158,7 @@
         "\n",
         "Histogram – Donation Amounts (Among Donors Only)\n"
       ],
-      "id": "a37071da"
+      "id": "696bf170"
     },
     {
       "cell_type": "code",
@@ -186,7 +186,7 @@
         "plt.tight_layout()\n",
         "plt.show()"
       ],
-      "id": "aabb0c9b",
+      "id": "ab3cf97b",
       "execution_count": null,
       "outputs": []
     },
@@ -202,7 +202,7 @@
         "\n",
         "As part of the balance test, I conducted a hand-computed two-sample t-test to determine whether the treatment and control groups differed significantly on the variable mrm2 (months since last donation). The results showed that the treatment group had a mean of 13.012 months, while the control group had a mean of 12.998 months. The calculated t-statistic was 0.120 with an associated p-value of 0.9049. Since the p-value is well above the 0.05 threshold, we fail to reject the null hypothesis and conclude that there is no statistically significant difference between the groups. This result supports the validity of the randomization mechanism, as it suggests that both groups were balanced on this pre-treatment variable.\n"
       ],
-      "id": "86f22882"
+      "id": "9136ba84"
     },
     {
       "cell_type": "code",
@@ -267,7 +267,7 @@
         "print(f\"Degrees of freedom:    {df_approx:.2f}\")\n",
         "print(f\"p-value (two-sided):   {p_value:.4g}\")"
       ],
-      "id": "51a56fa0",
+      "id": "d9f89680",
       "execution_count": null,
       "outputs": []
     },
@@ -277,7 +277,7 @@
       "source": [
         "To validate these results using a different method, I also ran a simple linear regression where mrm2 was regressed on the treatment variable. This approach tests the same hypothesis as the t-test—that the average months since last donation is equal across groups. The estimated treatment effect (0.014) is nearly identical to the difference in group means, and the associated p-value (0.905) confirms the same conclusion: there is no statistically significant difference between the groups. This reinforces the finding that the randomization successfully created balanced groups.\n"
       ],
-      "id": "97625ddf"
+      "id": "21febc8d"
     },
     {
       "cell_type": "code",
@@ -298,7 +298,7 @@
         "# Show the regression summary\n",
         "reg_mrm2.summary()"
       ],
-      "id": "6f5742ad",
+      "id": "810abb12",
       "execution_count": null,
       "outputs": []
     },
@@ -308,7 +308,7 @@
       "source": [
         "As part of the balance test, I conducted a hand-computed two-sample t-test to determine whether the treatment and control groups differed significantly on the variable freq (number of prior donations). This represents the second variable tested for robustness, following the initial test on mrm2 (months since last donation). The results showed that the treatment group had a mean of 8.035 donations, while the control group had a mean of 8.047 donations. The calculated t-statistic was -0.111 with an associated p-value of 0.9117. Since the p-value is well above the 0.05 threshold, we fail to reject the null hypothesis and conclude that there is no statistically significant difference between the groups. The fact that both mrm2 and freq are balanced across treatment and control groups further validates the randomization mechanism, confirming that the two groups are comparable on key pre-treatment characteristics.\n"
       ],
-      "id": "38cf71c5"
+      "id": "c70fd105"
     },
     {
       "cell_type": "code",
@@ -370,7 +370,7 @@
         "print(f\"Degrees of freedom:    {df_approx:.2f}\")\n",
         "print(f\"p-value (two-sided):   {p_value:.4g}\")"
       ],
-      "id": "aa319c48",
+      "id": "bb83ab99",
       "execution_count": null,
       "outputs": []
     },
@@ -380,7 +380,7 @@
       "source": [
         "To validate the results from the t-test, I also performed a linear regression of freq on the treatment variable. Like the t-test, this regression assesses whether there is a statistically significant difference in the number of prior donations between treatment and control groups. The coefficient on treatment (-0.012) closely matches the difference in group means, and the p-value (0.912) confirms the same conclusion: no significant difference exists. This consistency between the regression and the hand-calculated t-test reinforces the finding that the treatment assignment did not systematically influence pre-treatment donation frequency.\n"
       ],
-      "id": "eb8b9a50"
+      "id": "4b9062ac"
     },
     {
       "cell_type": "code",
@@ -403,7 +403,7 @@
         "reg_freq.plot()\n",
         "reg_freq.plot('corr')"
       ],
-      "id": "857b10ef",
+      "id": "16fd3afe",
       "execution_count": null,
       "outputs": []
     },
@@ -423,7 +423,7 @@
         "\n",
         "The bar plot below shows the proportion of individuals who made a donation in the treatment and control groups. This visualization offers an early look at the potential impact of being assigned to the treatment group, with a slightly higher donation rate observed. While this plot conveys similar information to the one presented in the Data section, it is revisited here in the context of hypothesis testing to begin assessing whether the observed difference is statistically significant.\n"
       ],
-      "id": "ab5b36c3"
+      "id": "7de73c79"
     },
     {
       "cell_type": "code",
@@ -452,7 +452,7 @@
         "plt.tight_layout()\n",
         "plt.show()"
       ],
-      "id": "65f6450e",
+      "id": "5bf69e3f",
       "execution_count": null,
       "outputs": []
     },
@@ -466,7 +466,7 @@
         "\n",
         "I ran a probit regression to estimate whether being assigned to the treatment group significantly increased the likelihood of making a charitable donation. The model used gave as the binary outcome and treatment as the explanatory variable. The results show a positive and statistically significant coefficient of 0.0868 (p = 0.002), indicating that assignment to the treatment group is associated with a higher probability of donating. However, this estimate does not match the coefficient reported in Table 3, Column 1 of the original paper, which shows a much smaller effect size of 0.004 with a standard error of 0.001. Despite the model setup appearing consistent, the difference in results suggests there may be differences in the underlying implementation or sample filtering. Still, the significance of the treatment variable aligns with the paper’s broader conclusion: matching grants, even modest ones, can meaningfully shift donation behavior.\n"
       ],
-      "id": "531c4f3b"
+      "id": "86a23e8d"
     },
     {
       "cell_type": "code",
@@ -487,7 +487,7 @@
         "# Step 2: Show a summary of the results\n",
         "probit_model.summary()"
       ],
-      "id": "bf8e3c6d",
+      "id": "dbc750ef",
       "execution_count": null,
       "outputs": []
     },
@@ -503,7 +503,7 @@
         "\n",
         "The regression analysis confirmed these findings. Relative to the omitted baseline group, all three match treatments were associated with higher donation probabilities: +0.3 percentage points for 1:1 (p = 0.097), and +0.5 percentage points for both 2:1 and 3:1 (p-values = 0.006 and 0.005, respectively). However, the similarity in effect sizes between the 2:1 and 3:1 groups reinforces the idea of diminishing returns from more generous matches. Together, these results support the conclusion of Karlan and List (2007): while matching grants are effective overall, increasing the match ratio beyond 1:1 does not significantly boost donor participation.\n"
       ],
-      "id": "6b2b9a1a"
+      "id": "a1783d5a"
     },
     {
       "cell_type": "code",
@@ -563,7 +563,7 @@
         "compare_ratios(df_ratio_3, df_ratio_1, \"3:1\", \"1:1\")\n",
         "compare_ratios(df_ratio_2, df_ratio_3, \"2:1\", \"3:1\")"
       ],
-      "id": "590ed982",
+      "id": "bd499b82",
       "execution_count": null,
       "outputs": []
     },
@@ -573,7 +573,7 @@
       "source": [
         "To assess the effect of different match ratios on donation likelihood, I ran an OLS regression of the binary outcome gave on dummy variables ratio1, ratio2, and ratio3, representing 1:1, 2:1, and 3:1 match offers, respectively. The regression results show that all three match ratios are associated with higher donation rates compared to the omitted group, with estimated effects of 0.003 (p = 0.097) for 1:1, 0.005 (p = 0.006) for 2:1, and 0.005 (p = 0.005) for 3:1. The 2:1 and 3:1 coefficients are statistically significant at the 1% level, while 1:1 is only marginally significant at the 10% level. Despite these coefficients being small in magnitude (increasing likelihood of donation by 0.3 to 0.5 percentage points), they are meaningful in the context of mass fundraising. However, the similarity in effect size between 2:1 and 3:1 suggests diminishing returns to more generous matching—larger match ratios do not yield proportionally greater increases in donation rates. This conclusion is reinforced by direct calculation: the response rate difference between 1:1 and 2:1 is approximately 0.002, and between 2:1 and 3:1 is nearly zero (–0.0001), which mirrors the difference in regression coefficients. These findings align with the original study’s conclusion that while the presence of a match increases donations, increasing the match ratio beyond 1:1 offers no additional boost in donor participation.\n"
       ],
-      "id": "f12172ce"
+      "id": "f8882435"
     },
     {
       "cell_type": "code",
@@ -598,7 +598,7 @@
         "reg_ratio_don.plot()\n",
         "reg_ratio_don.plot(\"corr\")"
       ],
-      "id": "de9eee8c",
+      "id": "82195e82",
       "execution_count": null,
       "outputs": []
     },
@@ -610,7 +610,7 @@
         "\n",
         "The coefficients indicate that shifting from a 1:1 to a 2:1 match leads to an increase in donation likelihood by about 0.0019 (0.19 percentage points), which is statistically significant (p = 0.006). However, increasing the match ratio further, from 2:1 to 3:1, offers almost no additional improvement (just 0.0001), indicating diminishing returns for more generous match ratios. These results align closely with Karlan and List’s original conclusions, demonstrating that while the presence of a match is effective at boosting donation rates, making the match more generous beyond a certain point does not significantly increase donor participation.\n"
       ],
-      "id": "6bf2dd8b"
+      "id": "9b031dbc"
     },
     {
       "cell_type": "code",
@@ -644,7 +644,7 @@
         "print(f\"Difference (2:1 vs. 1:1): {diff_coef_21_vs_11:.4f}\")\n",
         "print(f\"Difference (3:1 vs. 2:1): {diff_coef_31_vs_21:.4f}\")"
       ],
-      "id": "8158034a",
+      "id": "3ab7eae6",
       "execution_count": null,
       "outputs": []
     },
@@ -658,7 +658,7 @@
         "\n",
         "From the results of the t-test comparing donation amounts between the treatment and control groups, we observe a mean donation of approximately $0.97 for the treatment group and $0.81 for the control group, indicating a moderate increase in donation amounts due to treatment. The calculated t-statistic is 1.9183, and the associated p-value is 0.05509, just above the conventional significance threshold of 0.05. This result suggests that while there is some evidence that the treatment leads to higher average donations, the difference is only marginally statistically significant. Thus, we learn that matching grants have the potential not only to increase participation but possibly also to increase donation amounts among all individuals (though evidence for this latter effect is weaker). Further investigation, potentially with larger sample sizes or more targeted treatments, would be beneficial to clarify this effect.\n"
       ],
-      "id": "dbfe80fb"
+      "id": "768fb4f7"
     },
     {
       "cell_type": "code",
@@ -686,7 +686,7 @@
         "print(f\"Mean donation (Treatment): {treatment_amounts.mean():.4f}\")\n",
         "print(f\"Mean donation (Control): {control_amounts.mean():.4f}\")"
       ],
-      "id": "ca3c3315",
+      "id": "1fc4adad",
       "execution_count": null,
       "outputs": []
     },
@@ -698,7 +698,7 @@
         "\n",
         "Importantly, the treatment coefficient here does have a causal interpretation because the original experimental design involves random assignment of individuals to treatment and control groups. Thus, the observed effect (or lack thereof) can reasonably be interpreted as causal. In this case, we learn that, conditional on donating, the matching treatment does not significantly influence the donation size—supporting the earlier observation that the main benefit of matching grants appears primarily in encouraging participation, rather than increasing amounts among existing donors.\n"
       ],
-      "id": "5e858490"
+      "id": "599b2e40"
     },
     {
       "cell_type": "code",
@@ -718,7 +718,7 @@
         "# Print the summary of the regression results\n",
         "print(model_don.summary())"
       ],
-      "id": "41459770",
+      "id": "a1e348ee",
       "execution_count": null,
       "outputs": []
     },
@@ -728,7 +728,7 @@
       "source": [
         "_todo: Make two plots: one for the treatment group and one for the control. Each plot should be a histogram of the donation amounts only among people who donated. Add a red vertical bar or some other annotation to indicate the sample average for each plot._\n"
       ],
-      "id": "44ede6eb"
+      "id": "dee0099f"
     },
     {
       "cell_type": "code",
@@ -785,7 +785,7 @@
         "plt.legend(title=\"Annotation\")\n",
         "plt.show()"
       ],
-      "id": "f132c418",
+      "id": "3d42e377",
       "execution_count": null,
       "outputs": []
     },
@@ -801,7 +801,7 @@
         "\n",
         "The next four histograms demonstrate the Central Limit Theorem. Each histogram displays the distribution of 1000 repeated samples of average differences between the two groups for varying sample sizes (50, 200, 500, and 1000). For smaller samples (n=50), the distribution is wide, irregular, and centered near the true difference (0.004) but with considerable variation. As sample size increases (n=200, 500, and 1000), the distributions become progressively narrower and more symmetrical, clearly approximating a normal distribution and tightly centering around the true mean difference of 0.004. These results illustrate how increasing sample size improves precision, reduces variability, and provides the basis for robust statistical inference, as embodied by the t-statistic.\n"
       ],
-      "id": "9607eeaf"
+      "id": "8c2dded9"
     },
     {
       "cell_type": "code",
@@ -883,7 +883,7 @@
         "plt.tight_layout()\n",
         "plt.show()"
       ],
-      "id": "c614bde1",
+      "id": "67d8e9ac",
       "execution_count": null,
       "outputs": []
     },
@@ -895,7 +895,7 @@
         "\n",
         "In summary, this replication of Karlan and List’s (2007) study successfully validated their key findings. Matching grants indeed significantly increased the likelihood of donors contributing, confirming the power of simple financial incentives. Interestingly, while the presence of a match effectively boosted participation, increasing the match ratio beyond a basic 1:1 offer showed minimal additional impact, highlighting diminishing returns for more generous incentives. Further, the analysis indicated that the treatment primarily influences the decision to donate rather than the amount donated among those who chose to give. Lastly, simulation experiments effectively illustrated fundamental statistical principles: the Law of Large Numbers demonstrated how averages stabilize around true effects with larger samples, while the Central Limit Theorem showed how sampling distributions become increasingly normal and precise as sample sizes grow. Together, these analyses reinforce the importance of robust experimental design and statistical reasoning in evaluating charitable fundraising strategies."
       ],
-      "id": "5343da45"
+      "id": "350c981c"
     }
   ],
   "metadata": {
@@ -903,7 +903,7 @@
       "name": "python3",
       "language": "python",
       "display_name": "Python 3 (ipykernel)",
-      "path": "/Users/juanhernandezguizar/Library/Python/3.12/share/jupyter/kernels/python3"
+      "path": "/Users/juanhernandezguizar/Personal Website/rsm-jhernandezguizar.github.io/.venv/share/jupyter/kernels/python3"
     }
   },
   "nbformat": 4,
