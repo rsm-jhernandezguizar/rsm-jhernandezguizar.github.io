@@ -1,6 +1,6 @@
 ---
-title: "Multi-Nomial Logit (MNL) & Conjoint"
-description: "Assignment 3"
+title: "Streaming Service Consumer Preferences"
+description: "Conjoint analysis and multinomial logit modeling"
 image: /images/assignment3.jpg
 date: 2025-05-28
 author: Juan Hernández Guizar

@@ -1,6 +1,6 @@
 ---
-title: "Poisson Regression Examples"
-description: "Assignment 2"
+title: "Patent Success & Airbnb Demand Analysis"
+description: "Poisson and negative binomial regression case studies"
 image: /images/assignment2.jpg
 date: 2025-05-07
 author: Juan Hernández Guizar

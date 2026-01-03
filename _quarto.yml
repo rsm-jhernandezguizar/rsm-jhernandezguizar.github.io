@@ -11,7 +11,7 @@ website:
       - href: Resume.qmd
         text: '<i class="bi bi-newspaper"></i> Resume'
       - href: blog.qmd
-        text: '<i class="bi bi-pencil"></i> Blog'
+        text: '<i class="bi bi-bar-chart"></i> Portfolio'
       - text: "YouTube Channel"   # NUEVO botón "YouTube Channel"
         icon: youtube            # Ícono de YouTube (Bootstrap Icons)
         href: https://www.youtube.com/@CreaCircuitos   # Enlace a tu canal de YouTube

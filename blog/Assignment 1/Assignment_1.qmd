@@ -1,6 +1,6 @@
 ---
-title: "A Replication of Karlan and List (2007)"
-description: "Assignment 1"
+title: "Fundraising Campaign Effectiveness Analysis"
+description: "Replication study of matching grant strategies (Karlan & List, 2007)"
 image: /images/assignment1.jpg #updated image to be that of fundraising
 date: 2025-04-23
 author: Juan Hernández Guizar

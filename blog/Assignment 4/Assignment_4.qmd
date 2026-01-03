@@ -1,6 +1,6 @@
 ---
-title: "Machine Learning"
-description: "Assignment 4"
+title: "Clustering & Classification Methods"
+description: "K-means clustering and machine learning applications"
 image: /images/assignment4.jpg
 date: 2025-06-11
 author: Juan Hernández Guizar

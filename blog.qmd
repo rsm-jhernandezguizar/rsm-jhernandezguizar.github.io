@@ -1,5 +1,5 @@
 ---
-title: "My Projects for MGTA 459"
+title: "Analytics Portfolio"
 listing:
   contents: blog
   type: default
