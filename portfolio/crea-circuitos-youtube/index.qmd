@@ -1,0 +1,41 @@
+---
+title: "CreaCircuitos YouTube Channel"
+description: "Educational content on electronics, engineering, and technology"
+image: /images/creacircuitos-logo.jpg
+date: 2025-11-15
+author: Juan Hernández Guizar
+---
+
+## About CreaCircuitos
+
+CreaCircuitos is my educational YouTube channel dedicated to making electronics and engineering concepts accessible to Spanish-speaking audiences. The channel bridges the gap between technical education and practical application.
+
+### Channel Focus
+
+- **Electronics Fundamentals**: Step-by-step tutorials on circuit design and analysis
+- **Engineering Projects**: Hands-on builds and maker projects
+- **Technology Education**: Explaining complex concepts in simple terms
+- **Community Building**: Fostering interest in STEM fields
+
+## Visit the Channel
+
+**[📺 View CreaCircuitos YouTube Channel](https://www.youtube.com/@CreaCircuitos)**
+
+### Skills Demonstrated
+
+- **Technical Communication**: Translating complex engineering concepts for diverse audiences
+- **Content Creation**: Video production, scripting, and editing
+- **Community Engagement**: Building and maintaining an educational platform
+- **Bilingual Expertise**: Creating content for Spanish-speaking STEM learners
+
+### Impact
+
+The channel serves as a platform for:
+- Democratizing engineering education
+- Inspiring the next generation of engineers
+- Showcasing practical applications of theoretical concepts
+- Building a community of makers and learners
+
+---
+
+*This channel represents my commitment to education, community building, and making technical knowledge accessible to broader audiences.*

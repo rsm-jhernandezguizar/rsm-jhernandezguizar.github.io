@@ -1,0 +1,35 @@
+---
+title: "Spotify Music Recommendation Analysis"
+description: "Machine learning models for personalized music recommendations"
+image: /images/spotify-project.jpg
+date: 2025-12-10
+author: Juan Hernández Guizar
+---
+
+## Overview
+
+This collaborative project explores music recommendation systems using Spotify data, applying advanced machine learning techniques to understand user preferences and improve playlist personalization.
+
+### Project Highlights
+
+- **Collaborative Work**: Group project showcasing teamwork and technical communication
+- **Data-Driven Insights**: Analysis of user listening patterns and music features
+- **Machine Learning**: Implementation of recommendation algorithms
+- **Interactive Visualizations**: Dynamic charts and dashboards for exploring results
+
+## View Full Project
+
+The complete analysis, including interactive visualizations and detailed methodology, is available at:
+
+**[🎵 View Spotify Project Website](https://rsm-aburda.github.io/MGTA-452-Final-Project/index.html)**
+
+### Key Technologies
+
+- Python for data analysis and modeling
+- Machine learning libraries (scikit-learn, etc.)
+- Interactive visualization frameworks
+- Spotify API integration
+
+---
+
+*This project demonstrates collaborative analytics work and the application of machine learning to real-world recommendation systems.*

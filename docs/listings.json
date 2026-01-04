@@ -2,6 +2,8 @@
   {
     "listing": "/portfolio.html",
     "items": [
+      "/portfolio/spotify-group-project/index.html",
+      "/portfolio/crea-circuitos-youtube/index.html",
       "/portfolio/clustering-classification/index.html",
       "/portfolio/streaming-preferences/index.html",
       "/portfolio/patent-airbnb-analysis/index.html",
