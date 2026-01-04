@@ -1,0 +1,61 @@
+---
+title: "Business Analytics Case Studies"
+description: "Statistical modeling and experimental design explorations"
+image: /images/business-analytics.jpg
+date: 2025-06-01
+author: Juan Hernández Guizar
+---
+
+## Overview
+
+A collection of case studies from advanced business analytics coursework, demonstrating proficiency in statistical modeling, experimental design, and quantitative analysis across diverse business contexts.
+
+These projects showcase various analytical techniques applied to real-world business problems, from fundraising optimization to consumer preference modeling.
+
+## Case Studies
+
+### [📊 Fundraising Campaign Effectiveness](/archived-portfolio-items/fundraising-campaign-analysis/)
+**Replication study of matching grant strategies (Karlan & List, 2007)**
+
+Analysis of a large-scale field experiment testing the effectiveness of different fundraising letter treatments. Explores how matching grants influence donor behavior and contribution amounts.
+
+**Techniques**: A/B testing, hypothesis testing, experimental design, causal inference
+
+---
+
+### [📈 Patent Success & Airbnb Demand Analysis](/archived-portfolio-items/patent-airbnb-analysis/)
+**Poisson and negative binomial regression case studies**
+
+Two complementary studies: analyzing factors that influence patent applications and modeling Airbnb listing demand patterns using count data regression models.
+
+**Techniques**: Poisson regression, negative binomial regression, count data models, overdispersion analysis
+
+---
+
+### [🎬 Streaming Service Consumer Preferences](/archived-portfolio-items/streaming-preferences/)
+**Conjoint analysis and multinomial logit modeling**
+
+Investigation of consumer preferences for streaming service features (brand, pricing, ads) using conjoint analysis to understand utility functions and willingness to pay.
+
+**Techniques**: Conjoint analysis, multinomial logit (MNL) models, maximum likelihood estimation, Bayesian MCMC
+
+---
+
+### [🔍 Clustering & Classification Methods](/archived-portfolio-items/clustering-classification/)
+**K-means clustering and machine learning applications**
+
+Exploration of unsupervised and supervised learning techniques, including customer segmentation and predictive classification using various machine learning algorithms.
+
+**Techniques**: K-means clustering, classification algorithms, model evaluation, cross-validation
+
+## Key Skills Demonstrated
+
+- **Statistical Modeling**: Regression analysis, generalized linear models, Bayesian methods
+- **Experimental Design**: A/B testing, causal inference, randomized controlled trials
+- **Machine Learning**: Clustering, classification, model selection and validation
+- **Programming**: Python (pandas, scikit-learn, statsmodels, matplotlib)
+- **Business Application**: Translating analytical findings into actionable insights
+
+---
+
+*These case studies represent comprehensive analytical work completed as part of graduate-level business analytics training, demonstrating both technical depth and practical business acumen.*

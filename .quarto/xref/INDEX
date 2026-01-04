@@ -67,5 +67,23 @@
   },
   "portfolio/spotify-group-project/index.qmd": {
     "index.html": "4abe5d66"
+  },
+  "portfolio/business-analytics-studies/index.qmd": {
+    "index.html": "faaa381e"
+  },
+  "portfolio/dungeons-dragons-nlp/index.qmd": {
+    "index.html": "13acaf21"
+  },
+  "archived-portfolio-items/clustering-classification/index.qmd": {
+    "index.html": "6f51920e"
+  },
+  "archived-portfolio-items/patent-airbnb-analysis/index.qmd": {
+    "index.html": "ef8b0f4f"
+  },
+  "archived-portfolio-items/streaming-preferences/index.qmd": {
+    "index.html": "dec28d4e"
+  },
+  "archived-portfolio-items/fundraising-campaign-analysis/index.qmd": {
+    "index.html": "0f9b30e4"
   }
 }

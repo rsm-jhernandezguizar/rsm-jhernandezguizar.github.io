@@ -1,0 +1,40 @@
+---
+title: "The Fellowship of Unstructured Data"
+description: "NLP analysis of Dungeons & Dragons gameplay and storytelling"
+image: /images/dungeons-and-dragons.jpg
+date: 2025-10-15
+author: Juan Hernández Guizar
+---
+
+## Overview
+
+An innovative application of natural language processing to analyze Dungeons & Dragons gameplay, exploring narrative patterns, character development, and storytelling dynamics through computational text analysis.
+
+### Project Highlights
+
+- **Unstructured Data Analysis**: Processing and analyzing free-form narrative text from D&D sessions
+- **NLP Techniques**: Topic modeling, sentiment analysis, and text classification
+- **Storytelling Insights**: Quantifying narrative patterns and character arcs
+- **Interactive Visualizations**: Dynamic exploration of campaign data and themes
+
+## Explore the Project
+
+The complete analysis, including methodology, visualizations, and findings, is available at:
+
+**[🎲 View The Fellowship of Unstructured Data Project](https://rsm-jhernandezguizar.github.io/MGTA415_Unstructured_Fellowship/)**
+
+### Key Technologies
+
+- Natural Language Processing (NLP)
+- Python (NLTK, spaCy, transformers)
+- Topic modeling and text mining
+- Sentiment analysis
+- Interactive data visualization
+
+### Academic Context
+
+This project was developed as part of advanced analytics coursework, demonstrating the application of unstructured data analysis techniques to creative and unconventional datasets. It showcases how modern NLP methods can reveal patterns in narrative storytelling.
+
+---
+
+*This project combines technical rigor with creative analysis, applying data science to the art of collaborative storytelling.*

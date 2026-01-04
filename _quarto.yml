@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Juan Hernández Guizar"
+  favicon: favicon.png
   navbar:
     left:
       - href: index.qmd
