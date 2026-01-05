@@ -1,0 +1,192 @@
+---
+title: "UC Merced Undergraduate Research & Projects"
+description: "Mechanical engineering projects and research from undergraduate studies"
+image: /images/uc-merced-logo.jpg
+date: 2018-05-01
+author: Juan Hernández Guizar
+---
+
+## Overview
+
+As a Mechanical Engineering undergraduate at UC Merced (B.S., May 2018), I engaged in hands-on research, competitive design challenges, and community-focused engineering initiatives. My work spanned aerospace design, computational analysis, heritage preservation, and sustainable energy research—establishing the foundation for my career in aerospace systems engineering.
+
+These projects reflect a commitment to technical excellence, collaborative problem-solving, and applying engineering to create meaningful impact.
+
+## Featured Projects
+
+### AIAA Design Build Fly Competition
+**CAD Lead & Team Member | 2014-2016**
+
+Designed, fabricated, and demonstrated the flight capabilities of unmanned, electric-powered, radio-controlled aircraft for the American Institute of Aeronautics and Astronautics (AIAA) Design Build Fly competition. Led computer-aided design efforts across two competition cycles, collaborating with cross-functional teams to meet stringent mission requirements.
+
+**Key Accomplishments:**
+- Served as CAD Lead for 2015-2016 competition season
+- Developed aircraft conceptual designs using SolidWorks and AutoCAD
+- Conducted structural analysis and aerodynamic optimization
+- Coordinated fabrication and assembly processes
+- Managed technical documentation and proposal submissions
+
+**Skills:** Aircraft design, CAD modeling (SolidWorks, AutoCAD), structural analysis, aerodynamics, composite fabrication, flight testing, project management
+
+::: {.callout-note collapse="true" icon="false"}
+## 📄 View Project Documentation
+
+### 2015 DBF Final Report
+{{< pdf documents/design-build-fly-2015-final-report.pdf width=100% height=600 >}}
+
+### 2016 DBF Proposal
+{{< pdf documents/design-build-fly-2016-proposal.pdf width=100% height=600 >}}
+
+### AIAA Proposal Acceptance Letter
+{{< pdf documents/design-build-fly-proposal-acceptance.pdf width=100% height=600 >}}
+:::
+
+---
+
+### Engineering Service Learning
+**Heat Transfer Team Lead & Deputy Leader | 2014-2015**
+
+Completed two semesters of Engineering Service Learning, applying engineering principles to address real community needs through human-centered design. Led a heat transfer research team focused on developing sustainable energy solutions for the Merced community, including an innovative micro-channel solar collector design.
+
+**Project Highlights:**
+- **Team Leadership**: Provided agenda and objectives for research group, coordinated with community partners and faculty advisors
+- **Spring 2015 Flash Talk Winner**: Presented team's innovative micro-channel solar collector as a viable solution to drive down costs and increase STEM jobs in the San Joaquin Valley
+- **Community Impact**: Developed sustainable design solutions addressing real local needs
+- **Collaborative Research**: Coordinated weekly meetings with interdisciplinary team and stakeholders
+
+**Skills:** Community engagement, heat transfer analysis, sustainable design, project leadership, technical presentation, stakeholder management
+
+**Course Showcases:**
+- [Fall 2014 Project](https://engineeringservicelearning.ucmerced.edu/il2/2014fall)
+- [Spring 2015 Project](https://engineeringservicelearning.ucmerced.edu/il2/2015spring)
+
+::: {.callout-note collapse="true" icon="false"}
+## 📄 View Project Documentation
+
+### Final Project Report 2015
+{{< pdf documents/service-learning-2015-final-report.pdf width=100% height=600 >}}
+
+### Fall 2014 Team Summary
+{{< pdf documents/service-learning-fall-2014-team.pdf width=100% height=600 >}}
+
+### Spring 2015 Team Summary
+{{< pdf documents/service-learning-spring-2015-team.pdf width=100% height=600 >}}
+:::
+
+---
+
+### MESA Lab Image Processing Research
+**Research Intern | Mechatronics, Embedded Systems and Automation Laboratory | 2014-2015**
+
+Conducted photogrammetry and remote sensing research as part of the MESA Lab, developing UAV-based systems for precision agriculture and environmental monitoring. Applied computational photography and 3D reconstruction techniques to create high-fidelity models and analysis tools for water management and agricultural engineering.
+
+**Research Focus:**
+- Developed UAV and quadrotor remote sensing systems for precision agriculture and water management
+- Processed aerial imagery using Rawtherapee and stitched using Agisoft Photoscan
+- Created 3D maps for water stress analysis using infrared and thermal cameras
+- Applied photogrammetry techniques for engineering documentation and analysis
+
+**Technical Expertise:**
+- Multi-image photogrammetric processing and 3D mesh generation
+- Texture mapping and model optimization
+- Remote sensing data collection and UAV operation
+- Applications in agricultural engineering and environmental monitoring
+
+**Skills:** Photogrammetry, 3D modeling, UAV operation, remote sensing, image processing (Agisoft Photoscan, Rawtherapee), thermal imaging, computational photography
+
+::: {.callout-note collapse="true" icon="false"}
+## 📄 View Project Documentation
+
+### Agisoft PhotoScan Presentation
+{{< pdf documents/agisoft-photoscan-presentation.pdf width=100% height=600 >}}
+:::
+
+---
+
+### Castle Air Museum Aircraft Restoration
+**Restoration Hangar Volunteer | AIAA Community Outreach | 2015-2016**
+
+Volunteered over 75 hours at Castle Air Museum's restoration hangar as part of AIAA chapter community outreach initiatives, working to preserve and restore historic military aircraft. Collaborated with experienced Air Force, Navy, and former Air Force One personnel on the museum's collection of 63 aircraft, gaining hands-on experience with aerospace structures and systems while contributing to aviation heritage preservation.
+
+**Project Scope:**
+- Aircraft restoration including B-47 Stratojet, B-17 Flying Fortress, C-47 Skytrain, B-29 Superfortress, B-52 Stratofortress, F-16A Fighting Falcon, and F-4E Phantom II
+- Technical documentation and dimensional analysis for preservation records
+- Paint preparation and application, body reconstruction, and parts machining/swapping
+- Collaboration with museum staff, historians, and veteran aircraft technicians
+
+**Engineering Applications:**
+- Measurement systems and technical documentation for heritage aircraft
+- Materials analysis and structural assessment of vintage aerospace components
+- Reverse engineering of historical aircraft parts and assemblies
+- Application of modern engineering principles to historical preservation
+
+**Skills:** Aircraft restoration, technical documentation, measurement and analysis, heritage preservation, interdisciplinary collaboration, hands-on fabrication, aerospace structures
+
+**Impact:** Contributed to preserving aviation heritage while gaining invaluable hands-on experience with diverse aerospace structures, systems, and fabrication techniques—connecting AIAA's mission to inspire the next generation of aerospace professionals.
+
+::: {.callout-note collapse="true" icon="false"}
+## 📄 View Project Documentation
+
+### UC Merced School of Engineering Feature
+{{< pdf documents/castle-air-museum-uc-merced-feature.pdf width=100% height=600 >}}
+:::
+
+---
+
+### Pulse Jet Engine Research
+**Undergraduate Researcher | 2014-2015**
+
+Investigated pulse jet engine operation, design, and performance characteristics through theoretical analysis and experimental research. Explored thermodynamic cycles, combustion dynamics, and small-scale propulsion systems.
+
+**Research Components:**
+- Pulse jet operating principles and thermodynamic cycle analysis
+- Combustion chamber design and optimization considerations
+- Performance testing and experimental data acquisition
+- Applications in small-scale propulsion and UAV systems
+
+**Technical Analysis:**
+- Thermodynamic modeling and heat transfer calculations
+- Combustion efficiency and thrust calculations
+- Experimental setup design and instrumentation
+- Data analysis and performance characterization
+
+**Skills:** Thermodynamics, combustion analysis, propulsion systems, experimental design, data acquisition (LabVIEW), technical poster presentation
+
+::: {.callout-note collapse="true" icon="false"}
+## 📄 View Project Documentation
+
+### Pulse Jet Research Poster
+{{< pdf documents/pulse-jet-poster.pdf width=100% height=600 >}}
+:::
+
+---
+
+## Leadership & Impact
+
+**AIAA President** (2015-2016): Led UC Merced's aerospace chapter, organizing technical events, expanding community outreach programs including Castle Air Museum restoration partnerships, and earning the Collaborative Program of the Year Award
+
+**SHPE Treasurer & Outreach Chair** (2013-2014): Managed finances and community engagement for the Society of Hispanic Professional Engineers, promoting STEM awareness in underrepresented communities
+
+**Instructional Lab Assistant** (2013-2016): Operated and maintained diverse 3D printing systems (Mcor IRIS HD, Makerbot, Form Labs), supporting engineering education and fabrication
+
+## Technical Skills Developed
+
+**Design & Analysis:** SolidWorks, AutoCAD, Pro/ENGINEER, MATLAB, LabVIEW, structural and thermal analysis, CFD fundamentals
+
+**Fabrication & Testing:** 3D printing (multiple platforms), laser cutting, machine shop operations, composite fabrication, UAV operation, experimental instrumentation
+
+**Research Tools:** Agisoft Photoscan, Rawtherapee, remote sensing, photogrammetry, data acquisition systems
+
+**Project Management:** Cross-functional team leadership, stakeholder engagement, technical documentation, proposal development
+
+## Honors & Recognition
+
+- **Spring 2015 Flash Talk Competition Winner** - Innovative micro-channel solar collector project
+- **Collaborative Program of the Year Award** - AIAA chapter leadership (2015)
+- **New Organization of the Year Award** - AIAA chapter founding (2014)
+- **Community Outreach Award** - SHPE chapter impact (2015)
+- **Renewable Energy Scholarship** - Academic performance and renewable energy focus (2015)
+
+---
+
+*These undergraduate experiences cultivated a passion for aerospace systems engineering, established a foundation in technical leadership, and demonstrated a commitment to using engineering to serve communities and preserve heritage.*
