@@ -1,7 +1,96 @@
 ---
-title: "Juan's Resume"
+title: ""
 ---
 
-_Last updated: 2025-29-12_
+## Juan Hernández Guizar
 
-{{< pdf resume_files/251229_JHG_Resume.pdf width=100% height=800 >}}
+**Aerospace Systems Engineer | Business Analytics Graduate**
+
+<i class="bi bi-envelope"></i> [jhernandezguizar@ucsd.edu](mailto:jhernandezguizar@ucsd.edu) | <i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/juancarloshernandez8b7/)
+
+---
+
+## Professional Summary
+
+Aerospace Systems Engineer at Blue Origin with expertise in digital transformation, model-based systems engineering, and data-driven decision making. Combines technical aerospace engineering background with advanced business analytics to lead complex programs for cislunar and beyond-focused missions.
+
+---
+
+## Education
+
+**University of California, San Diego** | San Diego, CA  
+*Master of Science in Business Analytics* | December 2025  
+- Focus: Statistical modeling, machine learning, experimental design, data visualization
+- Relevant coursework: Advanced analytics, causal inference, optimization, database management
+
+**University of California, Merced** | Merced, CA  
+*Bachelor of Science in Mechanical Engineering* | May 2018  
+- Focus: Systems design, thermodynamics, materials science
+
+---
+
+## Professional Experience
+
+### **Blue Origin** | El Segundo, CA
+**Aerospace Systems Engineer** | 2023 – Present
+
+- Lead digital ecosystem initiatives for cislunar mission programs
+- Develop and implement model-based systems engineering (MBSE) frameworks
+- Drive systems modeling for [Blue Origin's Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19) technology
+- Collaborate with cross-functional teams on advanced space exploration systems
+- Apply data analytics to optimize engineering workflows and decision-making processes
+
+### **Mercury Systems** | Torrance, CA
+**Systems Engineering Manager** | 2021 – 2022
+
+- Managed team of 10 engineers across multiple aerospace defense programs
+- Oversaw systems requirements development, verification, and validation
+- Coordinated with program management and customers to ensure on-time delivery
+- Implemented process improvements to enhance team efficiency and product quality
+- Led technical reviews and risk mitigation strategies
+
+### **Rockwell Collins** (now Collins Aerospace) | Cedar Rapids, IA
+**Systems Engineer** | 2018 – 2021
+
+- Served as Scrum Master for agile development teams on commercial aviation platforms
+- Test lead for Embraer and Airbus avionics integration programs
+- Developed test procedures and requirements for flight control systems
+- Conducted systems integration testing and troubleshooting
+- Collaborated with international teams across multiple time zones
+
+---
+
+## Technical Skills
+
+**Programming & Data Analysis:** Python, R, SQL, Jupyter, pandas, NumPy, scikit-learn
+
+**Analytics & Visualization:** Tableau, Power BI, ggplot2, matplotlib, statistical modeling
+
+**Systems Engineering:** MBSE, SysML, requirements management, verification & validation
+
+**Tools & Platforms:** Git, Quarto, VS Code, Jira, Confluence, Cameo Systems Modeler
+
+**Methodologies:** Agile/Scrum, experimental design, A/B testing, regression analysis, machine learning
+
+---
+
+## Portfolio Highlights
+
+- **Business Analytics Case Studies:** Statistical modeling, experimental design, and quantitative analysis across fundraising optimization, consumer preference modeling, and market analysis
+- **Machine Learning Applications:** Clustering, classification, natural language processing, and predictive modeling
+- **Data Visualization:** Interactive dashboards and reports for business decision-making
+
+[View Full Portfolio →](portfolio.qmd)
+
+---
+
+<div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px;">
+  <p style="margin-bottom: 0.75rem; font-weight: 500;">For a downloadable version:</p>
+  <a href="resume_files/251229_JHG_Resume.pdf" download="Juan_Hernandez_Guizar_Resume.pdf" class="btn btn-primary" style="padding: 0.5rem 1.5rem; text-decoration: none; display: inline-block;">
+    <i class="bi bi-download"></i> Download PDF Resume
+  </a>
+</div>
+
+---
+
+_Last updated: December 29, 2024_

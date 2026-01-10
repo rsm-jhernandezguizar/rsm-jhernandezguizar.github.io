@@ -252,7 +252,7 @@ window.Quarto = {
 <p>This process will partition the dataset into k clusters such that each point belongs to the cluster with the closest centroid. The algorithm stops when successive iterations no longer change the centroids (or change them negligibly), meaning the clustering has stabilized. The result is a set of clusters and their centroid locations.</p>
 <p>To demonstrate K-Means, we’ll use the Palmer Penguins dataset, a popular alternative to the iris dataset. It contains measurements for three penguin species (Adelie, Chinstrap, Gentoo) from islands in Antarctica. We will use just two features for clustering: bill length and flipper length (both in mm). This gives us a 2D dataset that we can easily visualize. We will ignore the species labels during clustering (since K-Means is unsupervised), but it’s worth noting there are 3 true species in the data (which might correspond to 3 clusters).</p>
 <p>First, let’s load the dataset and take a peek at the data structure:</p>
-<div id="1bbd931c" class="cell" data-execution_count="1">
+<div id="635bd628" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-stdout">
 <pre><code>  species  bill_length_mm  flipper_length_mm
 0  Adelie            39.1                181
@@ -278,7 +278,7 @@ Dataset shape: (333, 2)</code></pre>
 <li>If centroids don’t change (or change very little), break out.</li>
 </ul>
 <p>We’ll also keep track of the cluster assignments at each iteration so we can visualize the progression.</p>
-<div id="f10e0b6c" class="cell" data-execution_count="2">
+<div id="0fc8a818" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Prepare data as a numpy array for convenience</span></span>
@@ -351,7 +351,7 @@ Final centroids:
 <section id="comparing-with-scikit-learn" class="level3">
 <h3 class="anchored" data-anchor-id="comparing-with-scikit-learn">Comparing with Scikit-Learn:</h3>
 <p>To ensure our implementation is correct, we can compare with scikit-learn’s built-in K-Means. Scikit-learn uses the same objective (minimizing sum of squared distances) and by default uses the K-Means++ initialization for centroids (a smart way to pick initial centroids). We fit scikit’s model on the same data:</p>
-<div id="c4751e4b" class="cell" data-execution_count="4">
+<div id="9a2ccd8b" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-stdout">
 <pre><code>Sklearn final centroids:
  [[ 45.94574468 196.84042553]
@@ -369,14 +369,14 @@ Final centroids:
 <li><p><strong>Silhouette Score:</strong> This measures how well-separated the clusters are. Silhouette score for a point is defined as (b - a) / max(a, b), where a is the average distance to other points in the same cluster (cohesion) and b is the average distance to points in the nearest other cluster (separation) ￼. The score ranges from -1 to 1; higher means the point is in the right cluster (well separated from others) ￼. We often use the average silhouette over all points to evaluate the clustering quality for a given K. A higher average silhouette indicates more distinct clustering structure.</p></li>
 </ul>
 <p>Let’s compute these metrics for K = 2 through 7 and see which K might be best for our penguin data:</p>
-<div id="10ea8f8f" class="cell" data-execution_count="5">
+<div id="9488bc50" class="cell" data-execution_count="5">
 <div class="cell-output cell-output-stdout">
-<pre><code>WCSS for K=2..7: [20949.785311278196, 13859.543763777465, 9587.135276652694, 7424.881508070243, 6332.786502814991, 5257.088985919957]
+<pre><code>WCSS for K=2..7: [20949.785311278196, 13859.543763777465, 9587.135276652694, 7424.881508070243, 6332.78650281499, 5257.088985919958]
 Silhouette scores for K=2..7: [0.6117940477662409, 0.48062618684371067, 0.4448839684032104, 0.42719392387268307, 0.41278625329909713, 0.4307326685776095]</code></pre>
 </div>
 </div>
 <p>Plotting these values:</p>
-<div id="0b884b29" class="cell" data-execution_count="6">
+<div id="731ef2ac" class="cell" data-execution_count="6">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -404,14 +404,14 @@ Silhouette scores for K=2..7: [0.6117940477662409, 0.48062618684371067, 0.444883
 x_2 \;=\; \sin(4x_1)+x_1,
 \]</span></p>
 <p>so we label a point <strong>class 1</strong> when <span class="math inline">\(x_2\)</span> lies <strong>above</strong> the curve and <strong>class 0</strong> otherwise. This produces two interwoven regions separated by a sine wave, giving KNN a genuinely non‑linear problem.</p>
-<div id="2ba0d23f" class="cell" data-execution_count="7">
+<div id="6b45753b" class="cell" data-execution_count="7">
 <div class="cell-output cell-output-stdout">
 <pre><code>Training set class counts: [49 51]
 Test set class counts: [53 47]</code></pre>
 </div>
 </div>
 <p>We have created a training set of 100 points and a test set of 100 points. Let’s visualize the training data and the true boundary:</p>
-<div id="8525f2d6" class="cell" data-execution_count="8">
+<div id="9ffe1c3b" class="cell" data-execution_count="8">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -431,7 +431,7 @@ x_2 \;=\; \sin(4x_1)+x_1,
 <h3 class="anchored" data-anchor-id="implementing-knn-from-scratch">Implementing KNN from Scratch</h3>
 <p>The KNN algorithm for classification is straightforward to implement. For each query (test point), we need to find the distances to all training points, pick the k nearest, and take a majority vote of their labels. A basic implementation might be O(n) per query (where n is number of training points), which can be slow for large datasets, but for our data size it’s fine.</p>
 <p>We’ll write a function knn_predict(X_train, y_train, X_test, k) that returns predicted labels for the X_test points:</p>
-<div id="66295a96" class="cell" data-execution_count="9">
+<div id="29e28334" class="cell" data-execution_count="9">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -461,7 +461,7 @@ Predicted labels: [1 1 0 1 1]</code></pre>
 </div>
 <p>In practice, one can use spatial data structures (KD-trees, ball trees) for large datasets, but we’re keeping it simple. The majority vote is implemented by averaging the 0/1 labels and rounding – this works because if a majority are 1s, the average &gt; 0.5, otherwise it’s &lt; 0.5 (for multiclass, you’d do something like collections.Counter or np.bincount to get the mode).</p>
 <p>Let’s see how our scratch KNN performs and verify it against scikit-learn’s KNN classifier:</p>
-<div id="a62b5d5a" class="cell" data-execution_count="10">
+<div id="54793b46" class="cell" data-execution_count="10">
 <div class="cell-output cell-output-stdout">
 <pre><code>Our KNN vs sklearn KNN match: True
 Test accuracy (k=5) scratch: 0.900
@@ -473,13 +473,13 @@ Test accuracy (k=5) sklearn: 0.900</code></pre>
 <section id="finding-the-best-k-accuracy-vs.-k" class="level3">
 <h3 class="anchored" data-anchor-id="finding-the-best-k-accuracy-vs.-k">Finding the Best k (Accuracy vs.&nbsp;k)</h3>
 <p>Finally, let’s see how the choice of k affects the performance on this problem. We’ll evaluate k from 1 up to 30 and record the classification accuracy on the test set for each:</p>
-<div id="67169896" class="cell" data-execution_count="11">
+<div id="d48a130a" class="cell" data-execution_count="11">
 <div class="cell-output cell-output-stdout">
 <pre><code>Best k = 1 with test accuracy = 0.920</code></pre>
 </div>
 </div>
 <p>Plotting these accuracies as a function of k:</p>
-<div id="1a42d429" class="cell" data-execution_count="12">
+<div id="db3d44d9" class="cell" data-execution_count="12">
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -927,6 +927,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Juan Hernández Guizar</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
