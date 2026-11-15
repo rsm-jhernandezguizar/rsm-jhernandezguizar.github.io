@@ -17,6 +17,7 @@ jobs:
         with:
           version: '1.6.43'
       - run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py'
           quarto render index.qmd --no-execute
           quarto render Resume.qmd --no-execute
       - uses: actions/upload-artifact@v4

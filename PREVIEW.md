@@ -17,3 +17,5 @@ The script renders the updated pages if Quarto is installed. Otherwise it serves
 The default link is <http://127.0.0.1:8765/>; if that port is busy, the script prints the available port it selected. The preview is available only on the computer running the script, while it is running.
 
 For automation: `python3 scripts/preview.py --skip-render --no-open` serves the committed HTML without opening an external browser.
+
+Quarto's [post-render hook](https://quarto.org/docs/projects/scripts.html#pre-and-post-render) runs `scripts/version_styles.py`. Rendered pages reference a content-hashed copy of the custom CSS so browsers load approved style updates instead of an older cached file. The source remains `styles.css`; prior hashed assets are retained for cached pages. Run `python3 -m unittest discover -s scripts -p 'test_*.py'` to check this behavior.
