@@ -10,7 +10,7 @@ about:
       href: https://www.linkedin.com/in/juancarloshernandez8b7/
 ---
 
-**Juan Hernández Guizar** is an aerospace systems engineer at **[Blue Origin](https://www.blueorigin.com/)**, where he leads digital twin and model-based systems engineering initiatives for advanced space programs. His work combines systems modeling and digital transformation with a commitment to technical excellence, inclusive leadership, and community-building.
+**Juan Hernández Guizar** is an aerospace systems engineer at **[Blue Origin](https://www.blueorigin.com/)** leading digital twin and model-based systems engineering initiatives for advanced space programs. He combines systems modeling and digital transformation with a focus on technical excellence. Inclusive leadership and community-building are central to his approach.
 
 ## Education
 
@@ -22,17 +22,29 @@ B.S. in Mechanical Engineering (May 2018)
 
 ## Experience
 
+::: {.home-experience-entry}
+
 **[Blue Origin](https://www.blueorigin.com/) | Digital Twin Lead, Advanced Systems**\
 El Segundo, CA | October 2022 – Present  
 
 Lead digital ecosystem initiatives and systems modeling for [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19). Current role since **July 2026**; previously Aerospace Systems Engineer II and III.
+
+:::
+
+::: {.home-experience-entry}
 
 **[Mercury Systems](https://www.mrcy.com/) | Systems Engineering Manager**\
 Torrance, CA | May 2021 – October 2022  
 
 Managed **10 engineers** across multiple aerospace programs. Manager from **February 2022**; previously Senior Systems Engineer.
 
+:::
+
+::: {.home-experience-entry}
+
 **[Rockwell Collins](https://www.rtx.com/collinsaerospace/) | Systems Engineer**\
 Cedar Rapids, IA | 2018 – 2021  
 
 Scrum Master and test lead for **[Embraer](https://www.embraer.com/)** and **[Airbus](https://www.airbus.com/en)** platforms.
+
+:::

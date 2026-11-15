@@ -96,3 +96,16 @@ main strong > a {
 #professional-experience h3 {
     margin-bottom: 0.4rem;
 }
+
+/* Group each homepage role closely without reducing space between employers. */
+.home-experience-entry {
+    margin-bottom: 1rem;
+}
+
+.home-experience-entry > p:first-child {
+    margin-bottom: 0.25rem;
+}
+
+.home-experience-entry > p:last-child {
+    margin-bottom: 0;
+}

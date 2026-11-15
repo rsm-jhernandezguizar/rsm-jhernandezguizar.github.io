@@ -4,7 +4,8 @@ The overall layout, page sections, skills, education facts, PDF download and Cre
 
 | Page | Before | After |
 | --- | --- | --- |
-| Home biography | Long sentence built around a job title | Two natural sentences about engineering work and leadership |
+| Home biography | Long sentence built around a job title | Three flowing sentences without comma-separated lists, preserving engineering scope and leadership values |
+| Homepage experience spacing | Full paragraph gap between dates and description | Smaller internal gap; original separation between employers retained |
 | Blue Origin company tenure, both pages | 2023 – Present | October 2022 – Present |
 | Blue Origin current role, both pages | Generic title/date | Digital Twin Lead, Advanced Systems since July 2026; earlier roles acknowledged |
 | Mercury Systems company tenure, both pages | 2021 – 2022 | May 2021 – October 2022 |
