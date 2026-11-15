@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import re
 import shutil
 from html import escape
 from pathlib import Path
@@ -80,6 +81,11 @@ def register_fonts(font_dir=None):
     )
 
 
+def compact_dates(text):
+    """Keep full years in source data; display numeric dates uniformly as MM/YY."""
+    return re.sub(r"\b(\d{2})/(?:19|20)(\d{2})\b", r"\1/\2", text)
+
+
 def para(text, style=BODY):
     return Paragraph(text, style, bulletText="\u2022" if style is BULLET else None)
 
@@ -137,29 +143,26 @@ def make_story(data):
     story.append(row(
         f'<b><i>{escape(blue["role"])}</i></b>, '
         f'{escape(blue["company"])}, {escape(blue["location"])}',
-        blue["role_dates"],
+        compact_dates(blue["company_dates"]),
     ))
     story.append(para(
         f'<b>{escape(blue["level"])}</b>'
-        + (f' (since {escape(blue["level_start"])})' if blue["level_start"] else "")
-        + ' | Blue Origin: '
-        f'{escape(blue["company_dates"])}'
     ))
-    story.append(para(escape(blue["earlier_roles"])))
+    story.append(para(escape(compact_dates(blue["earlier_roles"]))))
     story.extend(bullets(blue["bullets"]))
     for job in data["experience"]:
         story.append(Spacer(1, 7))
         heading = row(
             f'<b><i>{escape(job["role"])}</i></b>, '
             f'{escape(job["company"])}, {escape(job["location"])}',
-            job["dates"],
+            compact_dates(job["dates"]),
         )
         story.append(KeepTogether([heading, *bullets(job["bullets"])]))
     story.extend(section("SPECIALIZED SKILLS &amp; AWARDS"))
     story.extend(bullets(data["skills"]))
     story.extend(section("PROFESSIONAL AFFILIATIONS"))
     for affiliation in data["affiliations"]:
-        story.append(row(escape(affiliation["text"]), affiliation["dates"], left_style=BULLET))
+        story.append(row(escape(affiliation["text"]), compact_dates(affiliation["dates"]), left_style=BULLET))
     story.extend(section("EDUCATION"))
     for index, school in enumerate(data["education"]):
         if index:
@@ -168,7 +171,7 @@ def make_story(data):
         if school["school"]:
             label += ", " + escape(school["school"])
         story.append(KeepTogether([
-            row(label, school["date"]),
+            row(label, compact_dates(school["date"])),
             para(escape(school["institution"])),
             *bullets(school["bullets"]),
         ]))
@@ -192,9 +195,19 @@ def build(output, font_dir=None):
     if len(reader.pages) != 1:
         raise ValueError(f"Expected one page, generated {len(reader.pages)}; review layout.")
     text = reader.pages[0].extract_text()
-    for expected in (data["blue_origin"]["role"], data["blue_origin"]["level"], "10/2022 - Present"):
+    company_dates = compact_dates(data["blue_origin"]["company_dates"])
+    for expected in (data["blue_origin"]["role"], data["blue_origin"]["level"], company_dates):
         if expected not in text:
             raise ValueError(f"Missing expected résumé text: {expected}")
+    if text.count(company_dates) != 1:
+        raise ValueError("Show Blue Origin's main employment date only once.")
+    if (
+        f'since {compact_dates(data["blue_origin"]["level_start"])}' in text
+        or compact_dates(data["blue_origin"]["role_dates"]) in text
+    ):
+        raise ValueError("Do not repeat the current role / level start date in the PDF.")
+    if re.search(r"\b\d{2}/\d{4}\b", text):
+        raise ValueError("Use MM/YY consistently for numeric dates in the PDF.")
     expected_bullets = (
         len(data["blue_origin"]["bullets"])
         + sum(len(job["bullets"]) for job in data["experience"])

@@ -33,17 +33,17 @@ Juan is an aerospace systems engineer and technical leader specializing in digit
 
 ## Professional Experience
 
-### **[Blue Origin](https://www.blueorigin.com/)** | October 2022 – Present
+### **[Blue Origin](https://www.blueorigin.com/)** | 10/22 – Present
 
 ::: {.experience-meta}
 
-**Digital Twin Lead, Advanced Systems** | July 2026 – Present
+**Digital Twin Lead, Advanced Systems**
 
 *El Segundo, CA*
 
 :::
 
-Earlier roles: **Aerospace Systems Engineer II and III**.
+Earlier roles: **Aerospace Systems Engineer III** (03/25 – 07/26); **Aerospace Systems Engineer II** (10/22 – 03/25).
 
 - **Digital transformation:** Lead digital ecosystem initiatives for cislunar mission programs.
 - **MBSE:** Develop and implement model-based systems engineering frameworks.
@@ -51,17 +51,17 @@ Earlier roles: **Aerospace Systems Engineer II and III**.
 - **Cross-functional delivery:** Collaborate with teams developing advanced space exploration systems.
 - **Engineering analytics:** Apply data analysis to engineering workflows and decision-making.
 
-### **[Mercury Systems](https://www.mrcy.com/)** | May 2021 – October 2022
+### **[Mercury Systems](https://www.mrcy.com/)** | 05/21 – 10/22
 
 ::: {.experience-meta}
 
-**Systems Engineering Manager** | February 2022 – October 2022
+**Systems Engineering Manager**
 
 *Torrance, CA*
 
 :::
 
-Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
+Earlier role: **Senior Systems Engineer** (05/21 – 02/22).
 
 - **Team leadership:** Managed **10 engineers** across multiple aerospace defense programs.
 - **Requirements and verification:** Oversaw systems requirements development, verification, and validation.
@@ -69,11 +69,11 @@ Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 - **Process improvement:** Improved engineering workflows to support team efficiency and product quality.
 - **Technical oversight:** Led technical reviews and risk-mitigation activities.
 
-### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | May 2018 – May 2021
+### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | 05/18 – 05/21
 
 ::: {.experience-meta}
 
-**Systems Engineer** | May 2018 – May 2021
+**Systems Engineer**
 
 *Cedar Rapids, IA · Now Collins Aerospace*
 

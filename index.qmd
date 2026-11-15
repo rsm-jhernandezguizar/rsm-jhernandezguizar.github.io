@@ -25,18 +25,18 @@ B.S. in Mechanical Engineering (May 2018)
 ::: {.home-experience-entry}
 
 **[Blue Origin](https://www.blueorigin.com/) | Digital Twin Lead, Advanced Systems**\
-El Segundo, CA | October 2022 – Present  
+El Segundo, CA | 2022 – Present
 
-Lead digital ecosystem initiatives and systems modeling for [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19). Current role since **July 2026**; previously Aerospace Systems Engineer II and III.
+Lead digital ecosystem initiatives and systems modeling for [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19). Previously Aerospace Systems Engineer II and III.
 
 :::
 
 ::: {.home-experience-entry}
 
 **[Mercury Systems](https://www.mrcy.com/) | Systems Engineering Manager**\
-Torrance, CA | May 2021 – October 2022  
+Torrance, CA | 2021 – 2022
 
-Managed **10 engineers** across multiple aerospace programs. Manager from **February 2022**; previously Senior Systems Engineer.
+Managed **10 engineers** across multiple aerospace programs. Previously Senior Systems Engineer.
 
 :::
 
