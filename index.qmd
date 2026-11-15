@@ -10,26 +10,41 @@ about:
       href: https://www.linkedin.com/in/juancarloshernandez8b7/
 ---
 
-**Juan Hernández Guizar** is an Aerospace Systems Engineer at Blue Origin, leading digital transformation and model-based systems engineering efforts on cislunar and beyond focused programs. Passionate about inclusive leadership and technical excellence, Juan also champions community-building.
+**Juan Hernández Guizar** is an aerospace systems engineer at **[Blue Origin](https://www.blueorigin.com/)** leading digital twin and model-based systems engineering initiatives for advanced space programs. He combines systems modeling and digital transformation with a focus on technical excellence. Inclusive leadership and community-building are central to his approach.
 
 ## Education
 
-**UC San Diego** | San Diego, CA  
-M.S. in Business Analytics (Dec 2025)
+**[UC San Diego](https://www.ucsd.edu/)** | San Diego, CA  
+[M.S. in Business Analytics](https://rady.ucsd.edu/programs/ms-business-analytics/) (Dec 2025)
 
-**UC Merced** | Merced, CA  
+**[UC Merced](https://www.ucmerced.edu/)** | Merced, CA  
 B.S. in Mechanical Engineering (May 2018)
 
 ## Experience
 
-**Blue Origin** | Aerospace Systems Engineer  
-El Segundo, CA | 2023 – Present  
-Leading digital ecosystem initiatives and systems modeling for [Blue Origins Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19).
+::: {.home-experience-entry}
 
-**Mercury Systems** | Systems Engineering Manager  
-Torrance, CA | 2021 – 2022  
-Managed 10 engineers across multiple aerospace programs.
+**[Blue Origin](https://www.blueorigin.com/) | Digital Twin Lead, Advanced Systems**\
+El Segundo, CA | 2022 – Present
 
-**Rockwell Collins** | Systems Engineer  
+Lead digital ecosystem initiatives and systems modeling for [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19). Previously Aerospace Systems Engineer II and III.
+
+:::
+
+::: {.home-experience-entry}
+
+**[Mercury Systems](https://www.mrcy.com/) | Systems Engineering Manager**\
+Torrance, CA | 2021 – 2022
+
+Managed **10 engineers** across multiple aerospace programs. Previously Senior Systems Engineer.
+
+:::
+
+::: {.home-experience-entry}
+
+**[Rockwell Collins](https://www.rtx.com/collinsaerospace/) | Systems Engineer**\
 Cedar Rapids, IA | 2018 – 2021  
-Scrum master and test lead for Embraer and Airbus platforms.
+
+Scrum Master and test lead for **[Embraer](https://www.embraer.com/)** and **[Airbus](https://www.airbus.com/en)** platforms.
+
+:::

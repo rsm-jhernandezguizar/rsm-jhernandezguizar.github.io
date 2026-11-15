@@ -4,7 +4,7 @@ title: ""
 
 ## Juan Hernández Guizar
 
-**Aerospace Systems Engineer | Business Analytics Graduate**
+**Aerospace Systems Engineer | Digital Twins & MBSE**
 
 <i class="bi bi-envelope"></i> [jhernandezguizar@ucsd.edu](mailto:jhernandezguizar@ucsd.edu) | <i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/juancarloshernandez8b7/)
 
@@ -12,51 +12,78 @@ title: ""
 
 ## Professional Summary
 
-Aerospace Systems Engineer at Blue Origin with expertise in digital transformation, model-based systems engineering, and data-driven decision making. Combines technical aerospace engineering background with advanced business analytics to lead complex programs for cislunar and beyond-focused missions.
+Juan is an aerospace systems engineer and technical leader specializing in digital twins, model-based systems engineering (MBSE), and data-driven decision-making. His work at Blue Origin connects system architecture and engineering models to support advanced space programs. He combines a mechanical engineering background with graduate training in business analytics.
 
 ---
 
 ## Education
 
-**University of California, San Diego** | San Diego, CA  
-*Master of Science in Business Analytics* | December 2025  
+**[University of California, San Diego](https://www.ucsd.edu/)** | San Diego, CA  
+*[Master of Science in Business Analytics](https://rady.ucsd.edu/programs/ms-business-analytics/)* | December 2025  
+
 - Focus: Statistical modeling, machine learning, experimental design, data visualization
 - Relevant coursework: Advanced analytics, causal inference, optimization, database management
 
-**University of California, Merced** | Merced, CA  
+**[University of California, Merced](https://www.ucmerced.edu/)** | Merced, CA  
 *Bachelor of Science in Mechanical Engineering* | May 2018  
+
 - Focus: Systems design, thermodynamics, materials science
 
 ---
 
 ## Professional Experience
 
-### **Blue Origin** | El Segundo, CA
-**Aerospace Systems Engineer** | 2023 – Present
+### **[Blue Origin](https://www.blueorigin.com/)** | 10/22 – Present
 
-- Lead digital ecosystem initiatives for cislunar mission programs
-- Develop and implement model-based systems engineering (MBSE) frameworks
-- Drive systems modeling for [Blue Origin's Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19) technology
-- Collaborate with cross-functional teams on advanced space exploration systems
-- Apply data analytics to optimize engineering workflows and decision-making processes
+::: {.experience-meta}
 
-### **Mercury Systems** | Torrance, CA
-**Systems Engineering Manager** | 2021 – 2022
+**Digital Twin Lead, Advanced Systems**
 
-- Managed team of 10 engineers across multiple aerospace defense programs
-- Oversaw systems requirements development, verification, and validation
-- Coordinated with program management and customers to ensure on-time delivery
-- Implemented process improvements to enhance team efficiency and product quality
-- Led technical reviews and risk mitigation strategies
+*El Segundo, CA*
 
-### **Rockwell Collins** (now Collins Aerospace) | Cedar Rapids, IA
-**Systems Engineer** | 2018 – 2021
+:::
 
-- Served as Scrum Master for agile development teams on commercial aviation platforms
-- Test lead for Embraer and Airbus avionics integration programs
-- Developed test procedures and requirements for flight control systems
-- Conducted systems integration testing and troubleshooting
-- Collaborated with international teams across multiple time zones
+Earlier roles: **Aerospace Systems Engineer III** (03/25 – 07/26); **Aerospace Systems Engineer II** (10/22 – 03/25).
+
+- **Digital transformation:** Lead digital ecosystem initiatives for cislunar mission programs.
+- **MBSE:** Develop and implement model-based systems engineering frameworks.
+- **Systems modeling:** Support [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19) technology through system models.
+- **Cross-functional delivery:** Collaborate with teams developing advanced space exploration systems.
+- **Engineering analytics:** Apply data analysis to engineering workflows and decision-making.
+
+### **[Mercury Systems](https://www.mrcy.com/)** | 05/21 – 10/22
+
+::: {.experience-meta}
+
+**Systems Engineering Manager**
+
+*Torrance, CA*
+
+:::
+
+Earlier role: **Senior Systems Engineer** (05/21 – 02/22).
+
+- **Team leadership:** Managed **10 engineers** across multiple aerospace defense programs.
+- **Requirements and verification:** Oversaw systems requirements development, verification, and validation.
+- **Program coordination:** Worked with program management and customers to support delivery commitments.
+- **Process improvement:** Improved engineering workflows to support team efficiency and product quality.
+- **Technical oversight:** Led technical reviews and risk-mitigation activities.
+
+### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | 05/18 – 05/21
+
+::: {.experience-meta}
+
+**Systems Engineer**
+
+*Cedar Rapids, IA · Now Collins Aerospace*
+
+:::
+
+- **Agile delivery:** Served as Scrum Master for development teams on commercial aviation platforms.
+- **Avionics verification:** Served as test lead for **[Embraer](https://www.embraer.com/)** and **[Airbus](https://www.airbus.com/en)** integration programs.
+- **Test development:** Developed test procedures and requirements for flight control systems.
+- **Systems integration:** Conducted integration testing and troubleshooting.
+- **International collaboration:** Worked with teams across multiple time zones.
 
 ---
 
@@ -68,7 +95,7 @@ Aerospace Systems Engineer at Blue Origin with expertise in digital transformati
 
 **Systems Engineering:** MBSE, SysML, requirements management, verification & validation
 
-**Tools & Platforms:** Git, Quarto, VS Code, Jira, Confluence, Cameo Systems Modeler
+**Tools & Platforms:** Git, Quarto, VS Code, Jira, Confluence, [Cameo Systems Modeler](https://www.3ds.com/products/catia/no-magic/cameo-systems-modeler)
 
 **Methodologies:** Agile/Scrum, experimental design, A/B testing, regression analysis, machine learning
 
@@ -86,11 +113,11 @@ Aerospace Systems Engineer at Blue Origin with expertise in digital transformati
 
 <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px;">
   <p style="margin-bottom: 0.75rem; font-weight: 500;">For a downloadable version:</p>
-  <a href="resume_files/251229_JHG_Resume.pdf" download="Juan_Hernandez_Guizar_Resume.pdf" class="btn btn-primary" style="padding: 0.5rem 1.5rem; text-decoration: none; display: inline-block;">
+  <a href="resume_files/Juan_Hernandez_Guizar_Resume.pdf" download="Juan_Hernandez_Guizar_Resume.pdf" class="btn btn-primary" style="padding: 0.5rem 1.5rem; text-decoration: none; display: inline-block;">
     <i class="bi bi-download"></i> Download PDF Resume
   </a>
 </div>
 
 ---
 
-_Last updated: December 29, 2024_
+_Last updated: November 15, 2026_

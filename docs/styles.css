@@ -73,3 +73,39 @@ pre code {
     word-break: break-word;
     /* rompe palabras larguísimas si hace falta */
 }
+
+/* Keep intentionally emphasized links as bold as the surrounding text. */
+main strong > a {
+    font-weight: 700;
+}
+
+/* Share the role line with the location, wrapping naturally on narrow screens. */
+.experience-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.15rem 1.25rem;
+    margin: 0.35rem 0 0.4rem;
+}
+
+.experience-meta p {
+    margin: 0;
+}
+
+#professional-experience h3 {
+    margin-bottom: 0.4rem;
+}
+
+/* Group each homepage role closely without reducing space between employers. */
+.home-experience-entry {
+    margin-bottom: 1rem;
+}
+
+.home-experience-entry > p:first-child {
+    margin-bottom: 0.25rem;
+}
+
+.home-experience-entry > p:last-child {
+    margin-bottom: 0;
+}
