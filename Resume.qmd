@@ -113,7 +113,7 @@ Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 
 <div style="text-align: center; margin-top: 2rem; padding: 1.5rem; background-color: #f8f9fa; border-radius: 8px;">
   <p style="margin-bottom: 0.75rem; font-weight: 500;">For a downloadable version:</p>
-  <a href="resume_files/251229_JHG_Resume.pdf" download="Juan_Hernandez_Guizar_Resume.pdf" class="btn btn-primary" style="padding: 0.5rem 1.5rem; text-decoration: none; display: inline-block;">
+  <a href="resume_files/Juan_Hernandez_Guizar_Resume.pdf" download="Juan_Hernandez_Guizar_Resume.pdf" class="btn btn-primary" style="padding: 0.5rem 1.5rem; text-decoration: none; display: inline-block;">
     <i class="bi bi-download"></i> Download PDF Resume
   </a>
 </div>

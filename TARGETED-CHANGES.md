@@ -18,6 +18,7 @@ The overall layout, page sections, skills, education facts, PDF download and Cre
 | Linked names | Markdown emphasis displayed at normal link weight | University, employer, Embraer and Airbus links display in bold |
 | Education and technical references | Plain text | Official university, MSBA program and Cameo reference links |
 | Résumé revision date | December 29, 2024 | November 15, 2026 |
+| Downloadable PDF | December 2025 file showing level III as current | One-page PDF showing Digital Twin Lead, Advanced Systems and Aerospace Systems Engineer Sr (4) from July 2026, with prior progression and October 2022 company start retained |
 
 Dates and titles were checked against the author's LinkedIn profile with permission. The author also confirmed employment at Blue Origin since October 2022. July 2026 is the start of the current role, not the start of company tenure. Prior progression is acknowledged without adding new résumé sections.
 

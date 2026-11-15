@@ -1,0 +1,112 @@
+{
+  "name": "JUAN HERNANDEZ GUIZAR",
+  "location": "Los Ángeles, CA",
+  "phone": "(323) 523-1042",
+  "email": "jhernandezguizar@rady.ucsd.edu",
+  "linkedin": "https://www.linkedin.com/in/juancarloshernandez8b7",
+  "linkedin_label": "www.linkedin.com/in/juancarloshernandez8b7",
+  "updated": "2026-11-15",
+  "blue_origin": {
+    "company": "Blue Origin",
+    "location": "El Segundo, CA",
+    "company_dates": "10/2022 - Present",
+    "role": "Digital Twin Lead, Advanced Systems",
+    "role_dates": "07/2026 - Present",
+    "level": "Aerospace Systems Engineer Sr (4)",
+    "level_start": "07/2026",
+    "earlier_roles": "Earlier roles: Aerospace Systems Engineer III (03/2025 - 07/2026); Aerospace Systems Engineer II (10/2022 - 03/2025).",
+    "bullets": [
+      "Spearhead enterprise-level Digital Ecosystem (DE) initiatives resulting in cost savings from $750k to $2M+ per quarter.",
+      "Lead MBSE on <link href=\"https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&amp;s=19\" color=\"#35677a\"><u>Blue Origin's aerobrake</u></link>, developing and presenting artifacts such as the FHA, FTA, STPA, CONOPS, system architecture, ICD, and BOM / MEL in Dassault Systèmes Cameo.",
+      "Drive use-case-specific Artificial Intelligence (AI) solutions for the Advanced Concepts &amp; Enterprise Engineering team.",
+      "Lead interview pre-briefs and debriefs and participate as a Bar Raiser to assess whether candidates raise the bar for Blue Origin."
+    ]
+  },
+  "experience": [
+    {
+      "role": "Systems Engineering Manager",
+      "company": "Mercury Systems",
+      "location": "Torrance, CA",
+      "dates": "02/2022 - 10/2022",
+      "bullets": [
+        "Led a team of 10 direct reports supporting systems engineering scope in the Aviation Mission Common Server ($30M), JARVIS ($40M), and L-3 Helmet Mounted / Degraded Visual Environment ($10M) programs.",
+        "Spearheaded automated integrations between scheduling and project management tools to reduce status sync meetings by 75%.",
+        "Expanded the Systems Engineering team from 6 full-time engineers to 12 (100% growth) to align with business needs."
+      ]
+    },
+    {
+      "role": "Senior Systems Engineer",
+      "company": "Mercury Systems",
+      "location": "Torrance, CA",
+      "dates": "05/2021 - 02/2022",
+      "bullets": [
+        "Test lead, Scrum Master, and lead systems engineer on mission computer, power conversion, and data transfer programs."
+      ]
+    },
+    {
+      "role": "Systems Engineer",
+      "company": "Rockwell Collins",
+      "location": "Cedar Rapids, IA",
+      "dates": "05/2018 - 05/2021",
+      "bullets": [
+        "Test lead, Scrum Master, Cost Account Manager, and systems engineer for <link href=\"https://www.embraer.com/\" color=\"#35677a\"><u>Embraer C-390</u></link> and <link href=\"https://www.airbus.com/en\" color=\"#35677a\"><u>Airbus C-295</u></link> platforms."
+      ]
+    },
+    {
+      "role": "Mechanical Engineer Intern",
+      "company": "Northrop Grumman",
+      "location": "Whiteman Air Force Base, MO",
+      "dates": "10/2017 - 12/2017",
+      "bullets": [
+        "Performed classified survivability upgrades to the B-2 Spirit Bomber using Dassault Systèmes CATIA."
+      ]
+    },
+    {
+      "role": "Systems Engineer Intern",
+      "company": "Rockwell Collins",
+      "location": "Cedar Rapids, IA",
+      "dates": "06/2016 - 10/2017",
+      "bullets": [
+        "Tested 500+ system requirements in the Systems Integration Laboratory (SIL) for the Embraer C-390 aircraft."
+      ]
+    }
+  ],
+  "skills": [
+    "<b>Coding Languages:</b> Python",
+    "<b>Languages:</b> English and Spanish at full professional proficiency",
+    "<b>Awards:</b> Karman Line Ticket Recipient, Blue Star recipient, Southern California Edison Scholarship Recipient",
+    "<b>Tools:</b> Dassault Systèmes Cameo, Teamwork Cloud, Jira, Windchill, IBM ClearQuest, IBM Rational DOORS, JAMA, GitHub, GitLab, Docker, Confluence / Wiki, Syndeia, Ceptah Bridge, Dassault Systèmes CATIA",
+    "<b>Certifications:</b> Professional Scrum Master by Scrum.org and Mountain Goat"
+  ],
+  "affiliations": [
+    {
+      "text": "Active Professional Member: International Council on Systems Engineering (INCOSE)",
+      "dates": "01/2023 - Present"
+    },
+    {
+      "text": "Active Student / Professional Member: Society of Hispanic Professional Engineers (SHPE)",
+      "dates": "01/2013 - Present"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Business Analytics",
+      "school": "Rady School of Management",
+      "institution": "University of California, San Diego, CA",
+      "date": "12/2025",
+      "bullets": [
+        "Relevant Courses: AI-Math &amp; Programming, AI-Assisted Customer Analytics, Managerial Judgment / Decision Making"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science in Mechanical Engineering",
+      "school": "",
+      "institution": "University of California, Merced, CA",
+      "date": "05/2018",
+      "bullets": [
+        "Chapter President: American Institute of Aeronautics &amp; Astronautics (AIAA)",
+        "Chapter Outreach Chair &amp; Treasurer: The Society of Hispanic Professional Engineers (SHPE)"
+      ]
+    }
+  ]
+}
