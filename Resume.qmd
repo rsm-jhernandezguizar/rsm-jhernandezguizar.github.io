@@ -12,7 +12,7 @@ title: ""
 
 ## Professional Summary
 
-Digital Twin Lead, Advanced Systems at Blue Origin with expertise in digital transformation, model-based systems engineering, and data-driven decision making. Combines technical aerospace engineering background with advanced business analytics to lead complex programs for cislunar and beyond-focused missions.
+Juan is an aerospace systems engineer and technical leader specializing in digital twins, model-based systems engineering (MBSE), and data-driven decision-making. His work at Blue Origin connects system architecture and engineering models to support advanced space programs. He combines a mechanical engineering background with graduate training in business analytics.
 
 ---
 
@@ -31,8 +31,10 @@ Digital Twin Lead, Advanced Systems at Blue Origin with expertise in digital tra
 
 ## Professional Experience
 
-### **Blue Origin** | El Segundo, CA
-**Digital Twin Lead, Advanced Systems** | July 2026 – Present
+### **[Blue Origin](https://www.blueorigin.com/)** | El Segundo, CA
+**Company tenure:** October 2022 – Present  
+**Digital Twin Lead, Advanced Systems** | July 2026 – Present  
+Previously Aerospace Systems Engineer II and III.
 
 - Lead digital ecosystem initiatives for cislunar mission programs
 - Develop and implement model-based systems engineering (MBSE) frameworks
@@ -40,8 +42,10 @@ Digital Twin Lead, Advanced Systems at Blue Origin with expertise in digital tra
 - Collaborate with cross-functional teams on advanced space exploration systems
 - Apply data analytics to optimize engineering workflows and decision-making processes
 
-### **Mercury Systems** | Torrance, CA
-**Systems Engineering Manager** | February 2022 – October 2022
+### **[Mercury Systems](https://www.mrcy.com/)** | Torrance, CA
+**Company tenure:** May 2021 – October 2022  
+**Systems Engineering Manager** | February 2022 – October 2022  
+Previously Senior Systems Engineer (May 2021 – February 2022).
 
 - Managed team of 10 engineers across multiple aerospace defense programs
 - Oversaw systems requirements development, verification, and validation
@@ -49,7 +53,7 @@ Digital Twin Lead, Advanced Systems at Blue Origin with expertise in digital tra
 - Implemented process improvements to enhance team efficiency and product quality
 - Led technical reviews and risk mitigation strategies
 
-### **Rockwell Collins** (now Collins Aerospace) | Cedar Rapids, IA
+### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** (now Collins Aerospace) | Cedar Rapids, IA
 **Systems Engineer** | 2018 – 2021
 
 - Served as Scrum Master for agile development teams on commercial aviation platforms

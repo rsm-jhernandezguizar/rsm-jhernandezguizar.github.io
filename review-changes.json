@@ -1,9 +1,29 @@
 [
-  { "page": "index.html", "before": "Aerospace Systems Engineer", "after": "Digital Twin Lead, Advanced Systems", "reason": "Current role shown on LinkedIn" },
-  { "page": "index.html", "before": "2023 – Present", "after": "July 2026 – Present", "reason": "Start of the current Digital Twin Lead role" },
-  { "page": "index.html", "before": "2021 – 2022", "after": "February 2022 – October 2022", "reason": "Dates of the Mercury management role" },
-  { "page": "Resume.html", "before": "Aerospace Systems Engineer", "after": "Digital Twin Lead, Advanced Systems", "reason": "Current title, summary and Blue Origin heading" },
-  { "page": "Resume.html", "before": "2023 – Present", "after": "July 2026 – Present", "reason": "Start of the current Digital Twin Lead role" },
-  { "page": "Resume.html", "before": "2021 – 2022", "after": "February 2022 – October 2022", "reason": "Dates of the Mercury management role" },
+  {
+    "page": "index.html",
+    "before": "Juan Hernández Guizar is an Aerospace Systems Engineer at Blue Origin, leading digital transformation and model-based systems engineering efforts on cislunar and beyond focused programs. Passionate about inclusive leadership and technical excellence, Juan also champions community-building.",
+    "after": "Juan Hernández Guizar is an aerospace systems engineer at Blue Origin, where he leads digital twin and model-based systems engineering initiatives for advanced space programs. His work combines systems modeling and digital transformation with a commitment to technical excellence, inclusive leadership, and community-building.",
+    "highlight": ["is an aerospace systems engineer at ", ", where he leads digital twin and model-based systems engineering initiatives for advanced space programs. His work combines systems modeling and digital transformation with a commitment to technical excellence, inclusive leadership, and community-building."],
+    "reason": "Natural biography rather than a pasted job title"
+  },
+  { "page": "index.html", "before": "2023 – Present", "after": "October 2022 – Present", "reason": "Full Blue Origin employment tenure" },
+  { "page": "index.html", "before": "Only a single generic role was shown", "after": "Current role since July 2026; previously Aerospace Systems Engineer II and III.", "reason": "Distinguish promotion date from company start date" },
+  { "page": "index.html", "before": "2021 – 2022", "after": "May 2021 – October 2022", "reason": "Full Mercury Systems employment tenure" },
+  { "page": "index.html", "before": "Only the management role was shown", "after": "Manager from February 2022; previously Senior Systems Engineer.", "reason": "Clarify progression without adding new sections" },
+  { "page": "index.html", "before": "Employer names were not linked", "after": "Blue Origin, Mercury Systems and Rockwell Collins link to official company websites", "highlight": ["Blue Origin", "Mercury Systems", "Rockwell Collins"], "reason": "Official employer links; historical Rockwell Collins name retained" },
+  {
+    "page": "Resume.html",
+    "before": "Aerospace Systems Engineer at Blue Origin with expertise in digital transformation, model-based systems engineering, and data-driven decision making. Combines technical aerospace engineering background with advanced business analytics to lead complex programs for cislunar and beyond-focused missions.",
+    "after": "Juan is an aerospace systems engineer and technical leader specializing in digital twins, model-based systems engineering (MBSE), and data-driven decision-making. His work at Blue Origin connects system architecture and engineering models to support advanced space programs. He combines a mechanical engineering background with graduate training in business analytics.",
+    "reason": "Complete, coherent sentences with supported technical scope"
+  },
+  { "page": "Resume.html", "before": "2023 – Present", "after": "October 2022 – Present", "reason": "Blue Origin company tenure is separate from current role" },
+  { "page": "Resume.html", "before": "Aerospace Systems Engineer", "after": "Digital Twin Lead, Advanced Systems", "reason": "Current title; role starts July 2026" },
+  { "page": "Resume.html", "before": "2023 – Present", "after": "July 2026 – Present", "reason": "Current role dates, not company tenure" },
+  { "page": "Resume.html", "before": "Prior Blue Origin roles were omitted", "after": "Previously Aerospace Systems Engineer II and III.", "reason": "Preserve employment continuity" },
+  { "page": "Resume.html", "before": "2021 – 2022", "after": "May 2021 – October 2022", "reason": "Full Mercury Systems company tenure" },
+  { "page": "Resume.html", "before": "2021 – 2022", "after": "February 2022 – October 2022", "reason": "Management role dates within company tenure" },
+  { "page": "Resume.html", "before": "Earlier Mercury role was omitted", "after": "Previously Senior Systems Engineer (May 2021 – February 2022).", "reason": "Explain progression without an apparent employment gap" },
+  { "page": "Resume.html", "before": "Employer names were not linked", "after": "Blue Origin, Mercury Systems and Rockwell Collins link to official company websites", "highlight": ["Blue Origin", "Mercury Systems", "Rockwell Collins"], "reason": "Official links added without changing the historical employer name" },
   { "page": "Resume.html", "before": "Last updated: December 29, 2024", "after": "Last updated: November 15, 2026", "reason": "Actual revision date" }
 ]

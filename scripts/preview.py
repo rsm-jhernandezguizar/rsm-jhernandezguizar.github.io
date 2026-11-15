@@ -2,14 +2,63 @@
 import argparse
 import html
 import json
+import re
 from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from html.parser import HTMLParser
 from pathlib import Path
 import shutil
 import subprocess
 import threading
 import webbrowser
 from urllib.parse import parse_qs, urlsplit
+
+
+class ReviewHighlighter(HTMLParser):
+    """Highlight visible text only, preserving link targets and HTML attributes."""
+
+    def __init__(self, changes):
+        super().__init__(convert_charrefs=False)
+        self.output = []
+        self.ignore = 0
+        self.previous = {}
+        for change in changes:
+            for phrase in change.get("highlight", [change["after"]]):
+                self.previous.setdefault(phrase, change["before"])
+        self.pattern = re.compile("|".join(re.escape(p) for p in sorted(self.previous, key=len, reverse=True)))
+
+    def handle_starttag(self, tag, attrs):
+        self.output.append(self.get_starttag_text())
+        if tag in ("script", "style"):
+            self.ignore += 1
+
+    def handle_startendtag(self, tag, attrs):
+        self.output.append(self.get_starttag_text())
+
+    def handle_endtag(self, tag):
+        self.output.append(f"</{tag}>")
+        if tag in ("script", "style"):
+            self.ignore -= 1
+
+    def handle_data(self, data):
+        def mark(match):
+            value = match.group(0)
+            return ('<mark style="background:#fff2a8;color:inherit;padding:0;" '
+                    f'title="Previously: {html.escape(self.previous[value], quote=True)}">'
+                    + html.escape(value) + '</mark>')
+        self.output.append(data if self.ignore else self.pattern.sub(mark, data))
+
+    def handle_entityref(self, name):
+        self.output.append(f"&{name};")
+
+    def handle_charref(self, name):
+        self.output.append(f"&#{name};")
+
+    def handle_decl(self, decl):
+        self.output.append(f"<!{decl}>")
+
+    def handle_comment(self, data):
+        self.output.append(f"<!--{data}-->")
 
 
 class ReviewHandler(SimpleHTTPRequestHandler):
@@ -42,12 +91,9 @@ class ReviewHandler(SimpleHTTPRequestHandler):
         elif parse_qs(url.query).get("highlight") == ["1"] and url.path in ("/", "/index.html", "/Resume.html"):
             page = "index.html" if url.path in ("/", "/index.html") else "Resume.html"
             text = (root / "docs" / page).read_text(encoding="utf-8")
-            for change in changes:
-                if change["page"] == page:
-                    marked = ('<mark style="background:#fff2a8;color:inherit;padding:0;" '
-                              f'title="Previously: {html.escape(change["before"], quote=True)}">'
-                              + html.escape(change["after"]) + '</mark>')
-                    text = text.replace(html.escape(change["after"]), marked)
+            highlighter = ReviewHighlighter([c for c in changes if c["page"] == page])
+            highlighter.feed(text)
+            text = "".join(highlighter.output)
             banner = ('<aside style="position:fixed;bottom:12px;right:12px;z-index:99999;'
                       'background:#172b45;color:white;padding:12px;border-radius:8px;max-width:90vw;'
                       'font:14px system-ui;box-shadow:0 3px 14px #0004">'
