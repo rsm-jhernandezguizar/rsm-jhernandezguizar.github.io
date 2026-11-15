@@ -1,6 +1,6 @@
 # Targeted content corrections
 
-The overall layout, page sections, skills, education facts, PDF download and Crea Circuitos portfolio entry are preserved. Biography and summary prose are edited as complete paragraphs rather than mechanical title substitutions. Experience now uses concise bullets and selective bolding; links point to verified official references.
+The overall layout, page sections, skills, education facts, PDF download and Crea Circuitos portfolio entry are preserved. Biography and summary prose are edited as complete paragraphs rather than mechanical title substitutions. Homepage experience uses compact paragraphs; the résumé retains its contribution bullets. Selective bolding includes linked names, with verified official references.
 
 | Page | Before | After |
 | --- | --- | --- |
@@ -12,8 +12,9 @@ The overall layout, page sections, skills, education facts, PDF download and Cre
 | Résumé summary | Title pasted into a sentence fragment | Three complete sentences connecting technical leadership, systems engineering and business analytics |
 | Employer names | Plain text | Official Blue Origin, Mercury Systems and Collins Aerospace links |
 | Résumé headline | Digital Twin Lead, Advanced Systems / Business Analytics Graduate | Aerospace Systems Engineer / Digital Twins & MBSE |
-| Résumé experience formatting | Separate "Company tenure" label and inconsistent location/date positions | Company and employment dates in each heading; location, role and role dates beneath |
-| Homepage and résumé experience | Unemphasized prose and bullets | Selectively bold contribution labels, leadership facts and concise bullets |
+| Résumé experience formatting | Separate "Company tenure" label and inconsistent location/date positions | Company and employment dates in each heading; role/date and location share a wrapping row beneath, with no content removed |
+| Homepage and résumé experience | Unemphasized prose and bullets | Compact homepage paragraphs; résumé bullets retain selectively bold contribution labels and leadership facts |
+| Linked names | Markdown emphasis displayed at normal link weight | University, employer, Embraer and Airbus links display in bold |
 | Education and technical references | Plain text | Official university, MSBA program and Cameo reference links |
 | Résumé revision date | December 29, 2024 | November 15, 2026 |
 

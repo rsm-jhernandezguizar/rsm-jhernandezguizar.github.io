@@ -35,9 +35,14 @@ Juan is an aerospace systems engineer and technical leader specializing in digit
 
 ### **[Blue Origin](https://www.blueorigin.com/)** | October 2022 – Present
 
+::: {.experience-meta}
+
+**Digital Twin Lead, Advanced Systems** | July 2026 – Present
+
 *El Segundo, CA*
 
-**Digital Twin Lead, Advanced Systems** | July 2026 – Present  
+:::
+
 Earlier roles: **Aerospace Systems Engineer II and III**.
 
 - **Digital transformation:** Lead digital ecosystem initiatives for cislunar mission programs.
@@ -48,9 +53,14 @@ Earlier roles: **Aerospace Systems Engineer II and III**.
 
 ### **[Mercury Systems](https://www.mrcy.com/)** | May 2021 – October 2022
 
+::: {.experience-meta}
+
+**Systems Engineering Manager** | February 2022 – October 2022
+
 *Torrance, CA*
 
-**Systems Engineering Manager** | February 2022 – October 2022  
+:::
+
 Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 
 - **Team leadership:** Managed **10 engineers** across multiple aerospace defense programs.
@@ -61,12 +71,16 @@ Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 
 ### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | May 2018 – April 2021
 
-*Cedar Rapids, IA · Now Collins Aerospace*
+::: {.experience-meta}
 
 **Systems Engineer** | May 2018 – April 2021
 
+*Cedar Rapids, IA · Now Collins Aerospace*
+
+:::
+
 - **Agile delivery:** Served as Scrum Master for development teams on commercial aviation platforms.
-- **Avionics verification:** Served as test lead for **Embraer and Airbus** integration programs.
+- **Avionics verification:** Served as test lead for **[Embraer](https://www.embraer.com/)** and **[Airbus](https://www.airbus.com/en)** integration programs.
 - **Test development:** Developed test procedures and requirements for flight control systems.
 - **Systems integration:** Conducted integration testing and troubleshooting.
 - **International collaboration:** Worked with teams across multiple time zones.
