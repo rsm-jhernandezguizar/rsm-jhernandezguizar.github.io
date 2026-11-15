@@ -1,41 +1,34 @@
 ---
-title: "CreaCircuitos YouTube Channel"
-description: "Educational content on electronics, engineering, and technology"
+title: "Crea Circuitos: engineering knowledge in Spanish"
+description: "From a technical education channel to a maintainable learning platform built around clear architectures and practical guides."
 image: /images/creacircuitos-logo.jpg
-date: 2025-11-15
+date: 2026-11-15
 author: Juan Hernández Guizar
 ---
 
-## About CreaCircuitos
+## The problem
 
-CreaCircuitos is my educational YouTube channel dedicated to making electronics and engineering concepts accessible to Spanish-speaking audiences. The channel bridges the gap between technical education and practical application.
+Junior developers and engineering students need more than tool tutorials: they need explanations that help them make and defend their own design decisions. Crea Circuitos addresses this need in Spanish, with global reach and relevance to Latin America.
 
-### Channel Focus
+## My contribution
 
-- **Electronics Fundamentals**: Step-by-step tutorials on circuit design and analysis
-- **Engineering Projects**: Hands-on builds and maker projects
-- **Technology Education**: Explaining complex concepts in simple terms
-- **Community Building**: Fostering interest in STEM fields
+I am defining the platform vision, engineering principles, and learning approach, connecting my systems engineering background with technical communication and practical software workflows.
 
-## Visit the Channel
+## Architecture and decisions
 
-**[📺 View CreaCircuitos YouTube Channel](https://www.youtube.com/@CreaCircuitos)**
+- **Content first:** maintain technical guides as versioned Markdown.
+- **Separate audiences:** distinguish the public learning website from the internal engineering guide.
+- **Static delivery:** baseline Astro and Cloudflare Pages for the public site at the purchased domain, `creacircuitos.com`.
+- **Review before publication:** validate changes through merge requests and CI.
+- **Cost discipline:** begin with free service tiers and local experiments rather than paid inference or subscriptions.
 
-### Skills Demonstrated
+## Evidence and current status
 
-- **Technical Communication**: Translating complex engineering concepts for diverse audiences
-- **Content Creation**: Video production, scripting, and editing
-- **Community Engagement**: Building and maintaining an educational platform
-- **Bilingual Expertise**: Creating content for Spanish-speaking STEM learners
+The engineering guide has a working MkDocs build and CI pipeline. The public Astro website, a local Markdown link-checking experiment, and an AI workflow evaluation protocol are under development and review. Public domain activation remains a deployment milestone; it is not presented here as completed.
 
-### Impact
+The project demonstrates systems thinking, documentation architecture, engineering governance, and Spanish-language technical communication. Learning outcomes and community impact will be measured as content is published; no audience-growth or revenue claims are made at this stage.
 
-The channel serves as a platform for:
-- Democratizing engineering education
-- Inspiring the next generation of engineers
-- Showcasing practical applications of theoretical concepts
-- Building a community of makers and learners
+## Continue exploring
 
----
-
-*This channel represents my commitment to education, community building, and making technical knowledge accessible to broader audiences.*
+- [Crea Circuitos on YouTube](https://www.youtube.com/@CreaCircuitos)
+- [Technical guide repository — authorized access required](https://gitlab.com/creacircuitos/crea-circuitos-guia-tecnica)

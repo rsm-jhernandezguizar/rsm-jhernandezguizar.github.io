@@ -10,26 +10,20 @@ about:
       href: https://www.linkedin.com/in/juancarloshernandez8b7/
 ---
 
-**Juan Hernández Guizar** is an Aerospace Systems Engineer at Blue Origin, leading digital transformation and model-based systems engineering efforts on cislunar and beyond focused programs. Passionate about inclusive leadership and technical excellence, Juan also champions community-building.
+{{< include _generated/summary.md >}}
 
-## Education
+## Engineering, models, and decisions
 
-**UC San Diego** | San Diego, CA  
-M.S. in Business Analytics (Dec 2025)
+{{< include _generated/current-role.md >}}
 
-**UC Merced** | Merced, CA  
-B.S. in Mechanical Engineering (May 2018)
+Previously, I managed a ten-person engineering team at Mercury Systems and worked on avionics testing and verification at Rockwell Collins.
 
-## Experience
+[Explore my experience](Resume.qmd) · [View selected projects](portfolio.qmd)
 
-**Blue Origin** | Aerospace Systems Engineer  
-El Segundo, CA | 2023 – Present  
-Leading digital ecosystem initiatives and systems modeling for [Blue Origins Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19).
+## Crea Circuitos
 
-**Mercury Systems** | Systems Engineering Manager  
-Torrance, CA | 2021 – 2022  
-Managed 10 engineers across multiple aerospace programs.
+I am building Crea Circuitos to make rigorous engineering knowledge accessible in Spanish. The project connects practical technical guides, executable blueprints, and deliberate platform design for junior developers and engineering students.
 
-**Rockwell Collins** | Systems Engineer  
-Cedar Rapids, IA | 2018 – 2021  
-Scrum master and test lead for Embraer and Airbus platforms.
+[Explore the Crea Circuitos case study](portfolio/crea-circuitos-youtube/index.qmd)
+
+{{< include _generated/education.md >}}
