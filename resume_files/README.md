@@ -11,10 +11,11 @@ The current downloadable file is `Juan_Hernandez_Guizar_Resume.pdf`. The dated 2
 
 The generator creates `output/pdf/Juan_Hernandez_Guizar_Resume.pdf` and copies the candidate to the source and `docs/` download paths. Review it before publishing. The HTML résumé remains in `Resume.qmd`; keep its title and download link aligned when making changes. The PDF preserves the historical PDF's fuller experience and accomplishments rather than replacing them with the shorter web résumé.
 
-## Revision evidence and pending confirmation
+## Revision evidence
 
 - On 15 November 2026, the author confirmed the current function **Digital Twin Lead, Advanced Systems** and formal level **Aerospace Systems Engineer Sr (4)**.
+- At the author's request, display the current level as **Aerospace Systems Engineer IV (Senior)**, consistent with the earlier II and III levels.
 - The author separately confirmed the level 4 promotion in July 2026. The functional role and level therefore begin in the same month.
 - Company employment continues from October 2022. The previous III role is March 2025-July 2026; the II role is October 2022-March 2025. The earlier start dates come from the historical PDF and the July 2026 transition was confirmed by the author.
 - Accomplishments, financial figures, contacts and other employment dates are retained from the author's historical PDF, not independently verified in this revision. Minor grammar, punctuation and a duplicated GitHub entry are corrected without adding achievements.
-- The historical PDF lists Rockwell Collins employment through May 2021; the web résumé currently says April 2021. Preserve the PDF's source date pending author confirmation rather than silently resolving that discrepancy.
+- The author confirmed a direct transition from Rockwell Collins to Mercury Systems in May 2021, without a break. Both the PDF and web résumé therefore use May 2021 as the Rockwell Collins end month and Mercury Systems start month; no exact day is inferred.

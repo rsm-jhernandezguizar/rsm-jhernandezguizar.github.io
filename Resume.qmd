@@ -69,11 +69,11 @@ Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 - **Process improvement:** Improved engineering workflows to support team efficiency and product quality.
 - **Technical oversight:** Led technical reviews and risk-mitigation activities.
 
-### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | May 2018 – April 2021
+### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | May 2018 – May 2021
 
 ::: {.experience-meta}
 
-**Systems Engineer** | May 2018 – April 2021
+**Systems Engineer** | May 2018 – May 2021
 
 *Cedar Rapids, IA · Now Collins Aerospace*
 
