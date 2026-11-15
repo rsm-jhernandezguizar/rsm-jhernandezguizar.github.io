@@ -10,20 +10,26 @@ about:
       href: https://www.linkedin.com/in/juancarloshernandez8b7/
 ---
 
-{{< include _generated/summary.md >}}
+**Juan Hernández Guizar** is the Digital Twin Lead, Advanced Systems at Blue Origin, leading digital transformation and model-based systems engineering efforts on cislunar and beyond focused programs. Passionate about inclusive leadership and technical excellence, Juan also champions community-building.
 
-## Engineering, models, and decisions
+## Education
 
-{{< include _generated/current-role.md >}}
+**UC San Diego** | San Diego, CA  
+M.S. in Business Analytics (Dec 2025)
 
-Previously, I managed a ten-person engineering team at Mercury Systems and worked on avionics testing and verification at Rockwell Collins.
+**UC Merced** | Merced, CA  
+B.S. in Mechanical Engineering (May 2018)
 
-[Explore my experience](Resume.qmd) · [View selected projects](portfolio.qmd)
+## Experience
 
-## Crea Circuitos
+**Blue Origin** | Digital Twin Lead, Advanced Systems  
+El Segundo, CA | July 2026 – Present  
+Leading digital ecosystem initiatives and systems modeling for [Blue Origins Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19).
 
-I am building Crea Circuitos to make rigorous engineering knowledge accessible in Spanish. The project connects practical technical guides, executable blueprints, and deliberate platform design for junior developers and engineering students.
+**Mercury Systems** | Systems Engineering Manager  
+Torrance, CA | February 2022 – October 2022  
+Managed 10 engineers across multiple aerospace programs.
 
-[Explore the Crea Circuitos case study](portfolio/crea-circuitos-youtube/index.qmd)
-
-{{< include _generated/education.md >}}
+**Rockwell Collins** | Systems Engineer  
+Cedar Rapids, IA | 2018 – 2021  
+Scrum master and test lead for Embraer and Airbus platforms.

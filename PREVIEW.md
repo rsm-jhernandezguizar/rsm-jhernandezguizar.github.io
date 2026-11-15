@@ -4,6 +4,8 @@ On this Mac, double-click **Preview website.command** in the repository folder. 
 
 If working with Codex, ask **"Preview PR #1"**. Codex should fetch the PR, start the preview, open it in the app, and give you a clickable URL without requiring terminal work.
 
+For focused review, use <http://127.0.0.1:8765/?highlight=1> for yellow highlights and <http://127.0.0.1:8765/__changes__> for the before/after table. Highlights are added only by the local preview server; published pages keep their original formatting.
+
 ## One-command alternative
 
 ```sh

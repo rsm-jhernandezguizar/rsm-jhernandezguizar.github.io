@@ -1,1 +1,0 @@
-My current role is **Digital Twin Lead, Advanced Systems at Blue Origin**. I work across system architecture, digital-thread practices, and AI-enabled engineering to help teams turn complex requirements into models they can use.

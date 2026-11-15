@@ -1,8 +1,6 @@
 project:
   type: website
   output-dir: docs
-  pre-render:
-    - python3 scripts/render_profile.py
 
 website:
   title: "Juan Hernández Guizar"

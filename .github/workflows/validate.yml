@@ -17,11 +17,8 @@ jobs:
         with:
           version: '1.6.43'
       - run: |
-          python3 scripts/render_profile.py
-          git diff --exit-code -- _generated/
           quarto render index.qmd --no-execute
           quarto render Resume.qmd --no-execute
-          quarto render portfolio/crea-circuitos-youtube/index.qmd --no-execute
       - uses: actions/upload-artifact@v4
         with:
           name: portfolio-preview

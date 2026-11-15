@@ -1,0 +1,9 @@
+[
+  { "page": "index.html", "before": "Aerospace Systems Engineer", "after": "Digital Twin Lead, Advanced Systems", "reason": "Current role shown on LinkedIn" },
+  { "page": "index.html", "before": "2023 – Present", "after": "July 2026 – Present", "reason": "Start of the current Digital Twin Lead role" },
+  { "page": "index.html", "before": "2021 – 2022", "after": "February 2022 – October 2022", "reason": "Dates of the Mercury management role" },
+  { "page": "Resume.html", "before": "Aerospace Systems Engineer", "after": "Digital Twin Lead, Advanced Systems", "reason": "Current title, summary and Blue Origin heading" },
+  { "page": "Resume.html", "before": "2023 – Present", "after": "July 2026 – Present", "reason": "Start of the current Digital Twin Lead role" },
+  { "page": "Resume.html", "before": "2021 – 2022", "after": "February 2022 – October 2022", "reason": "Dates of the Mercury management role" },
+  { "page": "Resume.html", "before": "Last updated: December 29, 2024", "after": "Last updated: November 15, 2026", "reason": "Actual revision date" }
+]
