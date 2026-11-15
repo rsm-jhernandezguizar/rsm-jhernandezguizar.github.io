@@ -1,0 +1,17 @@
+# Preview the website
+
+On this Mac, double-click **Preview website.command** in the repository folder. It opens the website in your browser and keeps the local preview running in Terminal. Close that Terminal window when finished.
+
+If working with Codex, ask **"Preview PR #1"**. Codex should fetch the PR, start the preview, open it in the app, and give you a clickable URL without requiring terminal work.
+
+## One-command alternative
+
+```sh
+python3 scripts/preview.py
+```
+
+The script renders the updated pages if Quarto is installed. Otherwise it serves the rendered HTML included with the PR. It uses only Python's standard library and binds to `127.0.0.1`, so it does not publish the draft or expose it to the network.
+
+The default link is <http://127.0.0.1:8765/>; if that port is busy, the script prints the available port it selected. The preview is available only on the computer running the script, while it is running.
+
+For automation: `python3 scripts/preview.py --skip-render --no-open` serves the committed HTML without opening an external browser.
