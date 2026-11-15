@@ -20,11 +20,13 @@ Juan is an aerospace systems engineer and technical leader specializing in digit
 
 **[University of California, San Diego](https://www.ucsd.edu/)** | San Diego, CA  
 *[Master of Science in Business Analytics](https://rady.ucsd.edu/programs/ms-business-analytics/)* | December 2025  
+
 - Focus: Statistical modeling, machine learning, experimental design, data visualization
 - Relevant coursework: Advanced analytics, causal inference, optimization, database management
 
 **[University of California, Merced](https://www.ucmerced.edu/)** | Merced, CA  
 *Bachelor of Science in Mechanical Engineering* | May 2018  
+
 - Focus: Systems design, thermodynamics, materials science
 
 ---
