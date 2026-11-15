@@ -4,7 +4,7 @@ title: ""
 
 ## Juan Hernández Guizar
 
-**Digital Twin Lead, Advanced Systems | Business Analytics Graduate**
+**Aerospace Systems Engineer | Digital Twins & MBSE**
 
 <i class="bi bi-envelope"></i> [jhernandezguizar@ucsd.edu](mailto:jhernandezguizar@ucsd.edu) | <i class="bi bi-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/juancarloshernandez8b7/)
 
@@ -18,12 +18,12 @@ Juan is an aerospace systems engineer and technical leader specializing in digit
 
 ## Education
 
-**University of California, San Diego** | San Diego, CA  
-*Master of Science in Business Analytics* | December 2025  
+**[University of California, San Diego](https://www.ucsd.edu/)** | San Diego, CA  
+*[Master of Science in Business Analytics](https://rady.ucsd.edu/programs/ms-business-analytics/)* | December 2025  
 - Focus: Statistical modeling, machine learning, experimental design, data visualization
 - Relevant coursework: Advanced analytics, causal inference, optimization, database management
 
-**University of California, Merced** | Merced, CA  
+**[University of California, Merced](https://www.ucmerced.edu/)** | Merced, CA  
 *Bachelor of Science in Mechanical Engineering* | May 2018  
 - Focus: Systems design, thermodynamics, materials science
 
@@ -31,36 +31,43 @@ Juan is an aerospace systems engineer and technical leader specializing in digit
 
 ## Professional Experience
 
-### **[Blue Origin](https://www.blueorigin.com/)** | El Segundo, CA
-**Company tenure:** October 2022 – Present  
+### **[Blue Origin](https://www.blueorigin.com/)** | October 2022 – Present
+
+*El Segundo, CA*
+
 **Digital Twin Lead, Advanced Systems** | July 2026 – Present  
-Previously Aerospace Systems Engineer II and III.
+Earlier roles: **Aerospace Systems Engineer II and III**.
 
-- Lead digital ecosystem initiatives for cislunar mission programs
-- Develop and implement model-based systems engineering (MBSE) frameworks
-- Drive systems modeling for [Blue Origin's Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19) technology
-- Collaborate with cross-functional teams on advanced space exploration systems
-- Apply data analytics to optimize engineering workflows and decision-making processes
+- **Digital transformation:** Lead digital ecosystem initiatives for cislunar mission programs.
+- **MBSE:** Develop and implement model-based systems engineering frameworks.
+- **Systems modeling:** Support [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19) technology through system models.
+- **Cross-functional delivery:** Collaborate with teams developing advanced space exploration systems.
+- **Engineering analytics:** Apply data analysis to engineering workflows and decision-making.
 
-### **[Mercury Systems](https://www.mrcy.com/)** | Torrance, CA
-**Company tenure:** May 2021 – October 2022  
+### **[Mercury Systems](https://www.mrcy.com/)** | May 2021 – October 2022
+
+*Torrance, CA*
+
 **Systems Engineering Manager** | February 2022 – October 2022  
-Previously Senior Systems Engineer (May 2021 – February 2022).
+Earlier role: **Senior Systems Engineer** | May 2021 – February 2022.
 
-- Managed team of 10 engineers across multiple aerospace defense programs
-- Oversaw systems requirements development, verification, and validation
-- Coordinated with program management and customers to ensure on-time delivery
-- Implemented process improvements to enhance team efficiency and product quality
-- Led technical reviews and risk mitigation strategies
+- **Team leadership:** Managed **10 engineers** across multiple aerospace defense programs.
+- **Requirements and verification:** Oversaw systems requirements development, verification, and validation.
+- **Program coordination:** Worked with program management and customers to support delivery commitments.
+- **Process improvement:** Improved engineering workflows to support team efficiency and product quality.
+- **Technical oversight:** Led technical reviews and risk-mitigation activities.
 
-### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** (now Collins Aerospace) | Cedar Rapids, IA
-**Systems Engineer** | 2018 – 2021
+### **[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | May 2018 – April 2021
 
-- Served as Scrum Master for agile development teams on commercial aviation platforms
-- Test lead for Embraer and Airbus avionics integration programs
-- Developed test procedures and requirements for flight control systems
-- Conducted systems integration testing and troubleshooting
-- Collaborated with international teams across multiple time zones
+*Cedar Rapids, IA · Now Collins Aerospace*
+
+**Systems Engineer** | May 2018 – April 2021
+
+- **Agile delivery:** Served as Scrum Master for development teams on commercial aviation platforms.
+- **Avionics verification:** Served as test lead for **Embraer and Airbus** integration programs.
+- **Test development:** Developed test procedures and requirements for flight control systems.
+- **Systems integration:** Conducted integration testing and troubleshooting.
+- **International collaboration:** Worked with teams across multiple time zones.
 
 ---
 
@@ -72,7 +79,7 @@ Previously Senior Systems Engineer (May 2021 – February 2022).
 
 **Systems Engineering:** MBSE, SysML, requirements management, verification & validation
 
-**Tools & Platforms:** Git, Quarto, VS Code, Jira, Confluence, Cameo Systems Modeler
+**Tools & Platforms:** Git, Quarto, VS Code, Jira, Confluence, [Cameo Systems Modeler](https://www.3ds.com/products/catia/no-magic/cameo-systems-modeler)
 
 **Methodologies:** Agile/Scrum, experimental design, A/B testing, regression analysis, machine learning
 

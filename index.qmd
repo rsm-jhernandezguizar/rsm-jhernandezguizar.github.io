@@ -14,24 +14,27 @@ about:
 
 ## Education
 
-**UC San Diego** | San Diego, CA  
-M.S. in Business Analytics (Dec 2025)
+**[UC San Diego](https://www.ucsd.edu/)** | San Diego, CA  
+[M.S. in Business Analytics](https://rady.ucsd.edu/programs/ms-business-analytics/) (Dec 2025)
 
-**UC Merced** | Merced, CA  
+**[UC Merced](https://www.ucmerced.edu/)** | Merced, CA  
 B.S. in Mechanical Engineering (May 2018)
 
 ## Experience
 
-**[Blue Origin](https://www.blueorigin.com/)** | Digital Twin Lead, Advanced Systems  
+**[Blue Origin](https://www.blueorigin.com/)** | **Digital Twin Lead, Advanced Systems**  
 El Segundo, CA | October 2022 – Present  
-Current role since July 2026; previously Aerospace Systems Engineer II and III.  
-Leading digital ecosystem initiatives and systems modeling for [Blue Origins Aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19).
 
-**[Mercury Systems](https://www.mrcy.com/)** | Systems Engineering Manager  
+- **Digital engineering:** Lead digital ecosystem initiatives and systems modeling for [Blue Origin's aerobrake](https://x.com/davill/status/1991294431446856116?t=mScDfhmBt8OWp4pM5gRJBA&s=19).
+- **Role progression:** Current role since July 2026; previously Aerospace Systems Engineer II and III.
+
+**[Mercury Systems](https://www.mrcy.com/)** | **Systems Engineering Manager**  
 Torrance, CA | May 2021 – October 2022  
-Manager from February 2022; previously Senior Systems Engineer.  
-Managed 10 engineers across multiple aerospace programs.
 
-**[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | Systems Engineer  
+- **Team leadership:** Managed **10 engineers** across multiple aerospace programs.
+- **Role progression:** Manager from February 2022; previously Senior Systems Engineer.
+
+**[Rockwell Collins](https://www.rtx.com/collinsaerospace/)** | **Systems Engineer**  
 Cedar Rapids, IA | 2018 – 2021  
-Scrum master and test lead for Embraer and Airbus platforms.
+
+- **Agile delivery and verification:** Scrum Master and test lead for **Embraer and Airbus** platforms.
