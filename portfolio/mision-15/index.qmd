@@ -1,5 +1,5 @@
 ---
-title: "1% cada día (Misión 15)"
+title: "1% cada día"
 description: "A mobile-first web app for fitting short exercise sessions into a daily routine."
 image: /images/mision-15.png
 date: 2026-11-24

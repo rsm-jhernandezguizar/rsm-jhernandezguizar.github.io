@@ -4,7 +4,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Live projects: Crea Circuitos · 1% cada día (Misión 15)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1% cada día (Misión 15)\n\n\n\n\n\nA mobile-first web app for fitting short exercise sessions into a daily routine.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nCrea Circuitos\n\n\n\n\n\nA Spanish-language learning site for first projects in electronics, Arduino, and AI.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Music Recommendation Analysis\n\n\n\n\n\nMachine learning models for personalized music recommendations\n\n\n\n\n\nDec 10, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n\n\n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\n\n\nOct 15, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n\n\n\nStatistical modeling and experimental design explorations\n\n\n\n\n\nJun 1, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n\n\n\nMechanical engineering projects and research from undergraduate studies\n\n\n\n\n\nMay 1, 2018\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\nNo matching items"
+    "text": "Live projects: Crea Circuitos · 1% cada día\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1% cada día\n\n\n\n\n\nA mobile-first web app for fitting short exercise sessions into a daily routine.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nCrea Circuitos\n\n\n\n\n\nA Spanish-language learning site for first projects in electronics, Arduino, and AI.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Music Recommendation Analysis\n\n\n\n\n\nMachine learning models for personalized music recommendations\n\n\n\n\n\nDec 10, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n\n\n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\n\n\nOct 15, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n\n\n\nStatistical modeling and experimental design explorations\n\n\n\n\n\nJun 1, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n\n\n\nMechanical engineering projects and research from undergraduate studies\n\n\n\n\n\nMay 1, 2018\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/spotify-group-project/index.html",
@@ -366,21 +366,21 @@
   {
     "objectID": "portfolio/mision-15/index.html",
     "href": "portfolio/mision-15/index.html",
-    "title": "1% cada día (Misión 15)",
+    "title": "1% cada día",
     "section": "",
     "text": "Open 1% cada día"
   },
   {
     "objectID": "portfolio/mision-15/index.html#how-it-works",
     "href": "portfolio/mision-15/index.html#how-it-works",
-    "title": "1% cada día (Misión 15)",
+    "title": "1% cada día",
     "section": "How it works",
     "text": "How it works\nI built 1% cada día to make short exercise sessions easier to fit into a daily routine. The Hoy screen lets me log exercises I have already done or continue a guided 15-minute session. The weekly plan is editable, and the progress view shows logged activity over time."
   },
   {
     "objectID": "portfolio/mision-15/index.html#how-i-built-it",
     "href": "portfolio/mision-15/index.html#how-i-built-it",
-    "title": "1% cada día (Misión 15)",
+    "title": "1% cada día",
     "section": "How I built it",
     "text": "How I built it\nI used React and TypeScript for the interface and Vite to build it as an installable progressive web app. IndexedDB stores records in the browser when no account is connected. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages serves the built app.\nThe public link opens the interface, not my account or exercise history."
   }

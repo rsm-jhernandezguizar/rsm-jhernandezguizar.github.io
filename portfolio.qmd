@@ -10,4 +10,4 @@ listing:
   page-size: 10
 ---
 
-**Live projects:** [Crea Circuitos](https://creacircuitos.com/) · [1% cada día (Misión 15)](https://mision-15-87f9fa.gitlab.io/)
+**Live projects:** [Crea Circuitos](https://creacircuitos.com/) · [1% cada día](https://mision-15-87f9fa.gitlab.io/)
