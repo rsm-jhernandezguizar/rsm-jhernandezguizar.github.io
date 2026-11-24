@@ -4,7 +4,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Spotify Music Recommendation Analysis\n\n\n \n\nMachine learning models for personalized music recommendations\n\n\n\nDec 10, 2025\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreaCircuitos YouTube Channel\n\n\n \n\nEducational content on electronics, engineering, and technology\n\n\n\nNov 15, 2025\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n \n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\nOct 15, 2025\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n \n\nStatistical modeling and experimental design explorations\n\n\n\nJun 1, 2025\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n \n\nMechanical engineering projects and research from undergraduate studies\n\n\n\nMay 1, 2018\nJuan Hernández Guizar\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Live projects: Crea Circuitos · 1% cada día (Misión 15)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1% cada día (Misión 15)\n\n\n\n\n\nA mobile-first web app for fitting short exercise sessions into a daily routine.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nCrea Circuitos\n\n\n\n\n\nA Spanish-language learning site for first projects in electronics, Arduino, and AI.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Music Recommendation Analysis\n\n\n\n\n\nMachine learning models for personalized music recommendations\n\n\n\n\n\nDec 10, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n\n\n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\n\n\nOct 15, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n\n\n\nStatistical modeling and experimental design explorations\n\n\n\n\n\nJun 1, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n\n\n\nMechanical engineering projects and research from undergraduate studies\n\n\n\n\n\nMay 1, 2018\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/spotify-group-project/index.html",
@@ -310,9 +310,9 @@
   {
     "objectID": "portfolio/crea-circuitos-youtube/index.html",
     "href": "portfolio/crea-circuitos-youtube/index.html",
-    "title": "CreaCircuitos YouTube Channel",
+    "title": "Crea Circuitos",
     "section": "",
-    "text": "CreaCircuitos is my educational YouTube channel dedicated to making electronics and engineering concepts accessible to Spanish-speaking audiences. The channel bridges the gap between technical education and practical application.\n\n\n\nElectronics Fundamentals: Step-by-step tutorials on circuit design and analysis\nEngineering Projects: Hands-on builds and maker projects\nTechnology Education: Explaining complex concepts in simple terms\nCommunity Building: Fostering interest in STEM fields"
+    "text": "Visit Crea Circuitos · Watch the YouTube introduction"
   },
   {
     "objectID": "portfolio/crea-circuitos-youtube/index.html#about-creacircuitos",
@@ -348,5 +348,40 @@
     "title": "The Fellowship of Unstructured Data",
     "section": "Explore the Project",
     "text": "Explore the Project\nThe complete analysis, including methodology, visualizations, and findings, is available at:\n🎲 View The Fellowship of Unstructured Data Project\n\nKey Technologies\n\nNatural Language Processing (NLP)\nPython (NLTK, spaCy, transformers)\nTopic modeling and text mining\nSentiment analysis\nInteractive data visualization\n\n\n\nAcademic Context\nThis project was developed as part of advanced analytics coursework, demonstrating the application of unstructured data analysis techniques to creative and unconventional datasets. It showcases how modern NLP methods can reveal patterns in narrative storytelling.\n\nThis project combines technical rigor with creative analysis, applying data science to the art of collaborative storytelling."
+  },
+  {
+    "objectID": "portfolio/crea-circuitos-youtube/index.html#how-it-works",
+    "href": "portfolio/crea-circuitos-youtube/index.html#how-it-works",
+    "title": "Crea Circuitos",
+    "section": "How it works",
+    "text": "How it works\nI started Crea Circuitos on YouTube and expanded it into a learning site for Spanish-speaking beginners. Each resource sets out the prerequisites, shows what to expect, and gives learners something they can try on their own.\nThe virtual LED lab is a starting point: learners can turn a light on and off in their browser, observe the difference between an input and an output, and follow a short visual walkthrough. It is a conceptual demonstration and does not require hardware or simulate an electrical circuit."
+  },
+  {
+    "objectID": "portfolio/crea-circuitos-youtube/index.html#how-i-built-it",
+    "href": "portfolio/crea-circuitos-youtube/index.html#how-i-built-it",
+    "title": "Crea Circuitos",
+    "section": "How I built it",
+    "text": "How I built it\nI built the site with Astro and wrote the lessons in Spanish. The pages are generated as static HTML; a small browser-side script handles the LED controls and respects reduced-motion preferences. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site."
+  },
+  {
+    "objectID": "portfolio/mision-15/index.html",
+    "href": "portfolio/mision-15/index.html",
+    "title": "1% cada día (Misión 15)",
+    "section": "",
+    "text": "Open 1% cada día"
+  },
+  {
+    "objectID": "portfolio/mision-15/index.html#how-it-works",
+    "href": "portfolio/mision-15/index.html#how-it-works",
+    "title": "1% cada día (Misión 15)",
+    "section": "How it works",
+    "text": "How it works\nI built 1% cada día to make short exercise sessions easier to fit into a daily routine. The Hoy screen lets me log exercises I have already done or continue a guided 15-minute session. The weekly plan is editable, and the progress view shows logged activity over time."
+  },
+  {
+    "objectID": "portfolio/mision-15/index.html#how-i-built-it",
+    "href": "portfolio/mision-15/index.html#how-i-built-it",
+    "title": "1% cada día (Misión 15)",
+    "section": "How I built it",
+    "text": "How I built it\nI used React and TypeScript for the interface and Vite to build it as an installable progressive web app. IndexedDB stores records in the browser when no account is connected. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages serves the built app.\nThe public link opens the interface, not my account or exercise history."
   }
 ]
