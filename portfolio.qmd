@@ -9,3 +9,5 @@ listing:
   image-align: left
   page-size: 10
 ---
+
+**Live projects:** [Crea Circuitos](https://creacircuitos.com/) · [1% cada día](https://mision-15-87f9fa.gitlab.io/)

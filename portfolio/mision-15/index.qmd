@@ -1,0 +1,19 @@
+---
+title: "1% cada día"
+description: "A mobile-first web app for fitting short exercise sessions into a daily routine."
+image: /images/mision-15.png
+date: 2026-11-24
+author: Juan Hernández Guizar
+---
+
+**[Open 1% cada día](https://mision-15-87f9fa.gitlab.io/)**
+
+## How it works
+
+I built 1% cada día to make short exercise sessions easier to fit into a daily routine. The **Hoy** screen lets me log exercises I have already done or continue a guided 15-minute session. The weekly plan is editable, and the progress view shows logged activity over time.
+
+## How I built it
+
+I used React and TypeScript for the interface and Vite to build it as an installable progressive web app. IndexedDB stores records in the browser when no account is connected. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages serves the built app.
+
+The public link opens the interface, not my account or exercise history.
