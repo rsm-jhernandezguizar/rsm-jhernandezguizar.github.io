@@ -121,7 +121,11 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link active" data-scroll-target="#how-it-works">How it works</a></li>
-  <li><a href="#how-i-built-it" id="toc-how-i-built-it" class="nav-link" data-scroll-target="#how-i-built-it">How I built it</a></li>
+  <li><a href="#how-i-built-it" id="toc-how-i-built-it" class="nav-link" data-scroll-target="#how-i-built-it">How I built it</a>
+  <ul class="collapse">
+  <li><a href="#why-i-built-it-this-way" id="toc-why-i-built-it-this-way" class="nav-link" data-scroll-target="#why-i-built-it-this-way">Why I built it this way</a></li>
+  <li><a href="#implementation-and-ai-assistance" id="toc-implementation-and-ai-assistance" class="nav-link" data-scroll-target="#implementation-and-ai-assistance">Implementation and AI assistance</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -169,12 +173,21 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
 <p>I started Crea Circuitos on YouTube and expanded it into a learning site for Spanish-speaking beginners. Each resource sets out the prerequisites, shows what to expect, and gives learners something they can try on their own.</p>
 <p>The <a href="https://creacircuitos.com/guias/tu-primer-led/">virtual LED lab</a> is a starting point: learners can turn a light on and off in their browser, observe the difference between an input and an output, and follow a short visual walkthrough. It is a conceptual demonstration and does not require hardware or simulate an electrical circuit.</p>
+<p>Learners can then <a href="https://creacircuitos.com/guias/led-con-boton/">try two rules for the same button</a> or <a href="https://creacircuitos.com/guias/comprueba-una-respuesta-ia/">practice checking an AI answer against a source</a>.</p>
 </section>
 <section id="how-i-built-it" class="level2">
 <h2 class="anchored" data-anchor-id="how-i-built-it">How I built it</h2>
-<p>I built the site with Astro and wrote the lessons in Spanish. The pages are generated as static HTML; a small browser-side script handles the LED controls and respects reduced-motion preferences. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site.</p>
+<section id="why-i-built-it-this-way" class="level3">
+<h3 class="anchored" data-anchor-id="why-i-built-it-this-way">Why I built it this way</h3>
+<p>YouTube is a good place to see a project in action. I built the site so learners could take the next step at their own pace: read the instructions in Spanish, repeat a step, and try a simple version without buying a kit or creating an account.</p>
+</section>
+<section id="implementation-and-ai-assistance" class="level3">
+<h3 class="anchored" data-anchor-id="implementation-and-ai-assistance">Implementation and AI assistance</h3>
+<p>I chose Astro to serve lesson text as static HTML and use browser-side JavaScript only where it adds something, such as changing the LED state. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site.</p>
+<p>I used AI assistance to refine lesson drafts in Spanish, build browser demonstrations, and develop checks for interactions and links. In the AI lesson, readers compare prepared examples and check them against Arduino’s documentation; no model generates answers on the page.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

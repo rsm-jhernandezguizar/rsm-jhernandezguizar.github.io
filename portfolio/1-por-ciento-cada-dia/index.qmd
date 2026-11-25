@@ -1,0 +1,27 @@
+---
+title: "1% cada día"
+description: "A mobile-first web app for fitting short exercise sessions into a daily routine."
+image: /images/mision-15.png
+date: 2026-11-24
+author: Juan Hernández Guizar
+---
+
+**[Open 1% cada día](https://mision-15-87f9fa.gitlab.io/)**
+
+## How it works
+
+On the **Hoy** (Today) screen, I can start a guided 15-minute session or log exercise I have already done. I can also edit the weekly plan and review my activity over time.
+
+## How I built it
+
+### Why I built it this way
+
+I wanted to make it easier to keep an exercise routine on busy days. Starting with today's session keeps the next step clear, and manual logging means a workout can count even when I didn't follow the plan. The name reflects that intent: build consistency through small steps, not a promise of a measurable daily gain.
+
+### Implementation and AI assistance
+
+I chose an installable web app so I could use it from my phone without distributing it through an app store. I used React and TypeScript for the interface and Vite for the build. Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages hosts the app.
+
+I used AI assistance to refine the exercise flow, implement features, and develop checks for behavior such as manual logging. The AI supported development; it does not choose the workouts.
+
+The public link opens the interface, not my account or exercise history.

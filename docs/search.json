@@ -4,7 +4,7 @@
     "href": "portfolio.html",
     "title": "Portfolio",
     "section": "",
-    "text": "Live projects: Crea Circuitos · 1% cada día\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n1% cada día\n\n\n\n\n\nA mobile-first web app for fitting short exercise sessions into a daily routine.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nCrea Circuitos\n\n\n\n\n\nA Spanish-language learning site for first projects in electronics, Arduino, and AI.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Music Recommendation Analysis\n\n\n\n\n\nMachine learning models for personalized music recommendations\n\n\n\n\n\nDec 10, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n\n\n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\n\n\nOct 15, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n\n\n\nStatistical modeling and experimental design explorations\n\n\n\n\n\nJun 1, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n\n\n\nMechanical engineering projects and research from undergraduate studies\n\n\n\n\n\nMay 1, 2018\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\nNo matching items"
+    "text": "Live projects: Crea Circuitos · 1% cada día\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrea Circuitos\n\n\n\n\n\nA Spanish-language learning site for first projects in electronics, Arduino, and AI.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\n1% cada día\n\n\n\n\n\nA mobile-first web app for fitting short exercise sessions into a daily routine.\n\n\n\n\n\nNov 24, 2026\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nSpotify Music Recommendation Analysis\n\n\n\n\n\nMachine learning models for personalized music recommendations\n\n\n\n\n\nDec 10, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nThe Fellowship of Unstructured Data\n\n\n\n\n\nNLP analysis of Dungeons & Dragons gameplay and storytelling\n\n\n\n\n\nOct 15, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nBusiness Analytics Case Studies\n\n\n\n\n\nStatistical modeling and experimental design explorations\n\n\n\n\n\nJun 1, 2025\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\n\n\n\n\n\n\nUC Merced Undergraduate Research & Projects\n\n\n\n\n\nMechanical engineering projects and research from undergraduate studies\n\n\n\n\n\nMay 1, 2018\n\n\nJuan Hernández Guizar\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/spotify-group-project/index.html",
@@ -315,20 +315,6 @@
     "text": "Visit Crea Circuitos · Watch the YouTube introduction"
   },
   {
-    "objectID": "portfolio/crea-circuitos-youtube/index.html#about-creacircuitos",
-    "href": "portfolio/crea-circuitos-youtube/index.html#about-creacircuitos",
-    "title": "CreaCircuitos YouTube Channel",
-    "section": "",
-    "text": "CreaCircuitos is my educational YouTube channel dedicated to making electronics and engineering concepts accessible to Spanish-speaking audiences. The channel bridges the gap between technical education and practical application.\n\n\n\nElectronics Fundamentals: Step-by-step tutorials on circuit design and analysis\nEngineering Projects: Hands-on builds and maker projects\nTechnology Education: Explaining complex concepts in simple terms\nCommunity Building: Fostering interest in STEM fields"
-  },
-  {
-    "objectID": "portfolio/crea-circuitos-youtube/index.html#visit-the-channel",
-    "href": "portfolio/crea-circuitos-youtube/index.html#visit-the-channel",
-    "title": "CreaCircuitos YouTube Channel",
-    "section": "Visit the Channel",
-    "text": "Visit the Channel\n📺 View CreaCircuitos YouTube Channel\n\nSkills Demonstrated\n\nTechnical Communication: Translating complex engineering concepts for diverse audiences\nContent Creation: Video production, scripting, and editing\nCommunity Engagement: Building and maintaining an educational platform\nBilingual Expertise: Creating content for Spanish-speaking STEM learners\n\n\n\nImpact\nThe channel serves as a platform for: - Democratizing engineering education - Inspiring the next generation of engineers - Showcasing practical applications of theoretical concepts - Building a community of makers and learners\n\nThis channel represents my commitment to education, community building, and making technical knowledge accessible to broader audiences."
-  },
-  {
     "objectID": "portfolio/dungeons-dragons-nlp/index.html",
     "href": "portfolio/dungeons-dragons-nlp/index.html",
     "title": "The Fellowship of Unstructured Data",
@@ -354,34 +340,34 @@
     "href": "portfolio/crea-circuitos-youtube/index.html#how-it-works",
     "title": "Crea Circuitos",
     "section": "How it works",
-    "text": "How it works\nI started Crea Circuitos on YouTube and expanded it into a learning site for Spanish-speaking beginners. Each resource sets out the prerequisites, shows what to expect, and gives learners something they can try on their own.\nThe virtual LED lab is a starting point: learners can turn a light on and off in their browser, observe the difference between an input and an output, and follow a short visual walkthrough. It is a conceptual demonstration and does not require hardware or simulate an electrical circuit."
+    "text": "How it works\nI started Crea Circuitos on YouTube and expanded it into a learning site for Spanish-speaking beginners. Each resource sets out the prerequisites, shows what to expect, and gives learners something they can try on their own.\nThe virtual LED lab is a starting point: learners can turn a light on and off in their browser, observe the difference between an input and an output, and follow a short visual walkthrough. It is a conceptual demonstration and does not require hardware or simulate an electrical circuit.\nLearners can then try two rules for the same button or practice checking an AI answer against a source."
   },
   {
     "objectID": "portfolio/crea-circuitos-youtube/index.html#how-i-built-it",
     "href": "portfolio/crea-circuitos-youtube/index.html#how-i-built-it",
     "title": "Crea Circuitos",
     "section": "How I built it",
-    "text": "How I built it\nI built the site with Astro and wrote the lessons in Spanish. The pages are generated as static HTML; a small browser-side script handles the LED controls and respects reduced-motion preferences. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site."
+    "text": "How I built it\n\nWhy I built it this way\nYouTube is a good place to see a project in action. I built the site so learners could take the next step at their own pace: read the instructions in Spanish, repeat a step, and try a simple version without buying a kit or creating an account.\n\n\nImplementation and AI assistance\nI chose Astro to serve lesson text as static HTML and use browser-side JavaScript only where it adds something, such as changing the LED state. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site.\nI used AI assistance to refine lesson drafts in Spanish, build browser demonstrations, and develop checks for interactions and links. In the AI lesson, readers compare prepared examples and check them against Arduino’s documentation; no model generates answers on the page."
   },
   {
-    "objectID": "portfolio/mision-15/index.html",
-    "href": "portfolio/mision-15/index.html",
+    "objectID": "portfolio/1-por-ciento-cada-dia/index.html",
+    "href": "portfolio/1-por-ciento-cada-dia/index.html",
     "title": "1% cada día",
     "section": "",
     "text": "Open 1% cada día"
   },
   {
-    "objectID": "portfolio/mision-15/index.html#how-it-works",
-    "href": "portfolio/mision-15/index.html#how-it-works",
+    "objectID": "portfolio/1-por-ciento-cada-dia/index.html#how-it-works",
+    "href": "portfolio/1-por-ciento-cada-dia/index.html#how-it-works",
     "title": "1% cada día",
     "section": "How it works",
-    "text": "How it works\nI built 1% cada día to make short exercise sessions easier to fit into a daily routine. The Hoy screen lets me log exercises I have already done or continue a guided 15-minute session. The weekly plan is editable, and the progress view shows logged activity over time."
+    "text": "How it works\nOn the Hoy (Today) screen, I can start a guided 15-minute session or log exercise I have already done. I can also edit the weekly plan and review my activity over time."
   },
   {
-    "objectID": "portfolio/mision-15/index.html#how-i-built-it",
-    "href": "portfolio/mision-15/index.html#how-i-built-it",
+    "objectID": "portfolio/1-por-ciento-cada-dia/index.html#how-i-built-it",
+    "href": "portfolio/1-por-ciento-cada-dia/index.html#how-i-built-it",
     "title": "1% cada día",
     "section": "How I built it",
-    "text": "How I built it\nI used React and TypeScript for the interface and Vite to build it as an installable progressive web app. IndexedDB stores records in the browser when no account is connected. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages serves the built app.\nThe public link opens the interface, not my account or exercise history."
+    "text": "How I built it\n\nWhy I built it this way\nI wanted to make it easier to keep an exercise routine on busy days. Starting with today’s session keeps the next step clear, and manual logging means a workout can count even when I didn’t follow the plan. The name reflects that intent: build consistency through small steps, not a promise of a measurable daily gain.\n\n\nImplementation and AI assistance\nI chose an installable web app so I could use it from my phone without distributing it through an app store. I used React and TypeScript for the interface and Vite for the build. Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages hosts the app.\nI used AI assistance to refine the exercise flow, implement features, and develop checks for behavior such as manual logging. The AI supported development; it does not choose the workouts.\nThe public link opens the interface, not my account or exercise history."
   }
 ]
