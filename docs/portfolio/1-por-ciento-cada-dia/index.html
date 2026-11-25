@@ -181,7 +181,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="implementation-and-ai-assistance" class="level3">
 <h3 class="anchored" data-anchor-id="implementation-and-ai-assistance">Implementation and AI assistance</h3>
-<p>I chose an installable web app so I could use it from my phone without distributing it through an app store. I used React and TypeScript for the interface and Vite for the build. Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages hosts the app.</p>
+<p>I chose an installable web app so I could use it from my phone without distributing it through an app store.</p>
+<ul>
+<li><strong>React</strong> keeps the interface in step with changes: starting a timed session, logging an exercise, or editing the weekly plan updates what the user sees. Components let me reuse controls across those screens.</li>
+<li><strong>TypeScript</strong> gives exercise definitions, workout records, and weekly plans explicit shapes. It catches mismatched fields during development, before a change reaches the app. It does not validate stored data by itself.</li>
+<li><strong>Vite and GitLab Pages</strong> separate the build from hosting. Vite supports local development and packages the browser assets; GitLab Pages serves the result without an application server for the interface.</li>
+</ul>
+<p>Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load.</p>
 <p>I used AI assistance to refine the exercise flow, implement features, and develop checks for behavior such as manual logging. The AI supported development; it does not choose the workouts.</p>
 <p>The public link opens the interface, not my account or exercise history.</p>
 

@@ -20,7 +20,13 @@ I wanted to make it easier to keep an exercise routine on busy days. Starting wi
 
 ### Implementation and AI assistance
 
-I chose an installable web app so I could use it from my phone without distributing it through an app store. I used React and TypeScript for the interface and Vite for the build. Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load. GitLab Pages hosts the app.
+I chose an installable web app so I could use it from my phone without distributing it through an app store.
+
+- **React** keeps the interface in step with changes: starting a timed session, logging an exercise, or editing the weekly plan updates what the user sees. Components let me reuse controls across those screens.
+- **TypeScript** gives exercise definitions, workout records, and weekly plans explicit shapes. It catches mismatched fields during development, before a change reaches the app. It does not validate stored data by itself.
+- **Vite and GitLab Pages** separate the build from hosting. Vite supports local development and packages the browser assets; GitLab Pages serves the result without an application server for the interface.
+
+Without a connected account, IndexedDB stores records in the browser. A service worker caches the interface so it can reopen offline after an initial online load.
 
 I used AI assistance to refine the exercise flow, implement features, and develop checks for behavior such as manual logging. The AI supported development; it does not choose the workouts.
 

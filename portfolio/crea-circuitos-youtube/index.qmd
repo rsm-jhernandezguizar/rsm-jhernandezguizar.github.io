@@ -24,6 +24,9 @@ YouTube is a good place to see a project in action. I built the site so learners
 
 ### Implementation and AI assistance
 
-I chose Astro to serve lesson text as static HTML and use browser-side JavaScript only where it adds something, such as changing the LED state. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site.
+- **Astro** generates the lesson pages as HTML at build time. A reader can open the guides without waiting for a client-side app to render the text, and the site can share a consistent lesson layout.
+- **Browser-side JavaScript** is reserved for interactions such as changing the virtual LED state. The exercise runs on the page without a server request, and the written explanation and expected results remain available without JavaScript.
+- **GitLab** keeps lesson edits and code together. Merge requests make changes reviewable, and GitLab CI checks the build, links, and downloadable example before changes reach the main branch.
+- **Cloudflare Pages** publishes the static files from the main branch to the public domain. The lesson site doesn't need a custom backend to serve pages or run the LED activities.
 
 I used AI assistance to refine lesson drafts in Spanish, build browser demonstrations, and develop checks for interactions and links. In the AI lesson, readers compare prepared examples and check them against Arduino's documentation; no model generates answers on the page.
