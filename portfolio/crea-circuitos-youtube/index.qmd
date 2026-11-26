@@ -14,6 +14,19 @@ I started Crea Circuitos on YouTube and expanded it into a learning site for Spa
 
 The [virtual LED lab](https://creacircuitos.com/guias/tu-primer-led/) is a starting point: learners can turn a light on and off in their browser, observe the difference between an input and an output, and follow a short visual walkthrough. It is a conceptual demonstration and does not require hardware or simulate an electrical circuit.
 
+Learners can then [try two rules for the same button](https://creacircuitos.com/guias/led-con-boton/) or [practice checking an AI answer against a source](https://creacircuitos.com/guias/comprueba-una-respuesta-ia/).
+
 ## How I built it
 
-I built the site with Astro and wrote the lessons in Spanish. The pages are generated as static HTML; a small browser-side script handles the LED controls and respects reduced-motion preferences. GitLab CI checks the build, links, and downloadable example. Cloudflare Pages serves the site.
+### Why I built it this way
+
+YouTube is a good place to see a project in action. I built the site so learners could take the next step at their own pace: read the instructions in Spanish, repeat a step, and try a simple version without buying a kit or creating an account.
+
+### Implementation and AI assistance
+
+- **Astro** generates the lesson pages as HTML at build time. A reader can open the guides without waiting for a client-side app to render the text, and the site can share a consistent lesson layout.
+- **Browser-side JavaScript** is reserved for interactions such as changing the virtual LED state. The exercise runs on the page without a server request, and the written explanation and expected results remain available without JavaScript.
+- **GitLab** keeps lesson edits and code together. Merge requests make changes reviewable, and GitLab CI checks the build, links, and downloadable example before changes reach the main branch.
+- **Cloudflare Pages** publishes the static files from the main branch to the public domain. The lesson site doesn't need a custom backend to serve pages or run the LED activities.
+
+I used AI assistance to refine lesson drafts in Spanish, build browser demonstrations, and develop checks for interactions and links. In the AI lesson, readers compare prepared examples and check them against Arduino's documentation; no model generates answers on the page.

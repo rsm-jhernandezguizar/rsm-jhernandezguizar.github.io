@@ -17,12 +17,12 @@ jobs:
         with:
           version: '1.6.43'
       - run: |
-          python3 -m unittest discover -s scripts -p 'test_*.py'
           quarto render index.qmd --no-execute
           quarto render Resume.qmd --no-execute
           quarto render portfolio/crea-circuitos-youtube/index.qmd --no-execute
-          quarto render portfolio/mision-15/index.qmd --no-execute
+          quarto render portfolio/1-por-ciento-cada-dia/index.qmd --no-execute
           quarto render portfolio.qmd --no-execute
+          python3 -m unittest discover -s scripts -p 'test_*.py'
       - uses: actions/upload-artifact@v4
         with:
           name: portfolio-preview

@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - portfolio/mision-15/index.html
   post-render:
     - python3 scripts/version_styles.py
 
